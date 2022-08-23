@@ -121,11 +121,9 @@ jQuery(function ($) {
 		$('.preloader-area').fadeOut();
 	});
 
-	// Buy Now Btn
-	$('body').append("<a href='https://themeforest.net/checkout/84574815/create_account?_ga=2.71258256.1430237439.1644119533-1297998632.1635997908' target='_blank' class='buy-now-btn'>Buy Now</a>");
+	
 
-	// Switch Btn
-	$('body').append("<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>");
+	
 
 }(jQuery));
 
