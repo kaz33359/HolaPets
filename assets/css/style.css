@@ -1287,11 +1287,11 @@ table p {
 .header-logo-area img {
   max-width: 255px;
 }
-@media only screen and (max-width: 1399.98px) {
+/* @media only screen and (max-width: 1399.98px) {
   .header-logo-area img {
     max-width: 125px;
   }
-}
+} */
 .header-logo-area .logo-light {
   display: none;
 }
