@@ -935,9 +935,8 @@
                     <div class="page-meta">
                         <nav class="breadcrumb-style-one" aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">App</a></li>
-                                <li class="breadcrumb-item"><a href="#">Ecommerce</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Create</li>
+                                <li class="breadcrumb-item"><a href="#">Holapetz</a></li>
+                                <li class="breadcrumb-item"><a href="index.html">Products</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -963,7 +962,7 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-md-8">
+                                    <div class="col-md-12">
                                         <label for="product-images">Upload Images</label>
                                         <div class="multiple-file-upload">
                                             <input type="file" 
@@ -977,12 +976,12 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-4 text-center">
+                                    <!-- <div class="col-md-4 text-center">
                                         <div class="switch form-switch-custom switch-inline form-switch-primary mt-4">
                                             <input class="switch-input" type="checkbox" role="switch" id="showPublicly" checked>
                                             <label class="switch-label" for="showPublicly">Display publicly</label>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     
                                 </div>
 
@@ -993,15 +992,10 @@
                         <div class="col-xxl-3 col-xl-12 col-lg-12 col-md-12 col-sm-12">
 
                             <div class="row">
-                                <!-- <div class="col-xxl-12 col-xl-8 col-lg-8 col-md-7 mt-xxl-0 mt-4">
+                                 <div class="col-xxl-12 col-xl-8 col-lg-8 col-md-7 mt-xxl-0 mt-4">
                                     <div class="widget-content widget-content-area ecommerce-create-section">
                                         <div class="row">
-                                            <div class="col-xxl-12 mb-4">
-                                                <div class="switch form-switch-custom switch-inline form-switch-secondary">
-                                                    <input class="switch-input" type="checkbox" role="switch" id="in-stock">
-                                                    <label class="switch-label" for="in-stock">In Stock</label>
-                                                </div>
-                                            </div>
+                                            
                                             <div class="col-xxl-12 col-md-6 mb-4">
                                                 <label for="proCode">Product Code</label>
                                                 <input type="text" class="form-control" id="proCode" value="">
@@ -1010,7 +1004,7 @@
                                                 <label for="proSKU">Product SKU</label>
                                                 <input type="text" class="form-control" id="proSKU" value="">
                                             </div>
-                                            <div class="col-xxl-12 col-md-6 mb-4">
+                                            <!-- <div class="col-xxl-12 col-md-6 mb-4">
                                                 <label for="gender">Gender</label>
                                                 <select class="form-select" id="gender">
                                                     <option value="">Choose...</option>
@@ -1019,8 +1013,8 @@
                                                     <option value="kids">Kids</option>
                                                     <option value="unisex">Unisex</option>
                                                 </select>
-                                            </div>
-                                            <div class="col-xxl-12 col-md-6 mb-4">
+                                            </div> -->
+                                            <!-- <div class="col-xxl-12 col-md-6 mb-4">
                                                 <label for="category">Category</label>
                                                 <select class="form-select" id="category">
                                                     <option value="">Choose...</option>
@@ -1030,19 +1024,19 @@
                                                     <option value="apperal">Apperal</option>
                                                     <option value="accessories">Accessories</option>
                                                 </select>
-                                            </div>
-                                            <div class="col-xxl-12 col-lg-6 col-md-12">
+                                            </div> -->
+                                            <!-- <div class="col-xxl-12 col-lg-6 col-md-12">
                                                 <label for="tags">Tags</label>
                                                 <input id="tags" class="product-tags" value="">
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
-                                </div> -->
+                                </div> 
                                 <div class="col-xxl-12 col-xl-4 col-lg-4 col-md-5 ">
                                     <div class="widget-content widget-content-area ecommerce-create-section">
                                         <div class="row">
                                             <div class="col-sm-12 mb-4">
-                                                <label for="regular-price">Regular Price</label>
+                                                <label for="regular-price">Maximum Retail Price</label>
                                                 <input type="text" class="form-control" id="regular-price" value="">
                                             </div>
                                             <div class="col-sm-12 mb-4">
@@ -1066,121 +1060,50 @@
     
                     </div>
 
+                    <div class="row layout-spacing">
+                        <div class="col-lg-12">
+                            <div class="statbox widget box box-shadow">
+                                <div class="widget-content widget-content-area">
+                                    <table id="style-2" class="table style-2 dt-table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th class="checkbox-column dt-no-sorting">Id</th>
+                                                <th>Product Name</th>
+                                                <th>Product Code</th>
+                                                <th>MRP</th>
+                                                <th>Selling Price</th>
+                                                <th class="text-center">Image</th>
+                                                <!-- <th class="text-center">Status</th> -->
+                                                <th class="text-center dt-no-sorting">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="checkbox-column"> 1 </td>
+                                                <td>product name</td>
+                                                <td>code</td>
+                                                <td>$</td>
+                                                <td>$</td>
+                                                <td class="text-center">
+                                                    <span><img src="../src/assets/img/profile-9.jpg" class="rounded-circle profile-img" alt="avatar"></span>
+                                                </td>
+                                                <!-- <td class="text-center"><span class="shadow-none badge badge-primary">Approved</span></td> -->
+                                                <td class="text-center"><a href="javascript:void(0);" class="bs-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" data-original-title="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle table-cancel"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg></a></td>
+                                            </tr>
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 
             </div>
-            <div class="seperator-header layout-top-spacing">
-                <!-- <h4 class="">Style 1</h4> -->
-            </div>
             
-            <div class="row layout-spacing">
-                <div class="col-lg-12">
-                    <div class="statbox widget box box-shadow ">
-                        <div class="widget-content widget-content-area ">
-                            <table id="style-2" class="table style-2 dt-table-hover">
-                                <thead>
-                                    <tr>
-                                        <th class="checkbox-column dt-no-sorting"> Record Id </th>
-                                        <th>First Name</th>
-                                        <th>Last Name</th>
-                                        <th>Email</th>
-                                        <th>Mobile No.</th>
-                                        <th class="text-center">Image</th>
-                                        <th class="text-center">Status</th>
-                                        <th class="text-center dt-no-sorting">Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="checkbox-column"> 1 </td>
-                                        <td>Jane</td>
-                                        <td>Lamb</td>
-                                        <td>johndoe@yahoo.com</td>
-                                        <td>555-555-5555</td>
-                                        <td class="text-center">
-                                            <span><img src="../src/assets/img/profile-9.jpg" class="rounded-circle profile-img" alt="avatar"></span>
-                                        </td>
-                                        <td class="text-center"><span class="shadow-none badge badge-primary">Approved</span></td>
-                                        <td class="text-center"><a href="javascript:void(0);" class="bs-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" data-original-title="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle table-cancel"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="checkbox-column"> 2 </td>
-                                        <td>Linda</td>
-                                        <td>Nelson</td>
-                                        <td>linda@gmail.com</td>
-                                        <td>555-555-6666</td>
-                                        <td class="text-center">
-                                            <span><img src="../src/assets/img/profile-11.jpg" class="rounded-circle profile-img" alt="avatar"></span>
-                                        </td>
-                                        <td class="text-center"><span class="shadow-none badge badge-warning">Suspended</span></td>
-                                        <td class="text-center"><a href="javascript:void(0);" class="bs-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" data-original-title="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle table-cancel"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="checkbox-column"> 3 </td>
-                                        <td>Kelly</td>
-                                        <td>Young</td>
-                                        <td>kelly@live.com</td>
-                                        <td>777-555-5555</td>
-                                        <td class="text-center">
-                                            <span><img src="../src/assets/img/profile-12.jpg" class="rounded-circle profile-img" alt="avatar"></span>
-                                        </td>
-                                        <td class="text-center"><span class="shadow-none badge badge-danger">Closed</span></td>
-                                        <td class="text-center"><a href="javascript:void(0);" class="bs-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" data-original-title="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle table-cancel"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="checkbox-column"> 4 </td>
-                                        <td>Vincent</td>
-                                        <td>Carpenter</td>
-                                        <td>vinnyc@outlook.com</td>
-                                        <td>555-666-5555</td>
-                                        <td class="text-center">
-                                            <span><img src="../src/assets/img/profile-13.jpg" class="rounded-circle profile-img" alt="avatar"></span>
-                                        </td>
-                                        <td class="text-center"><span class="shadow-none badge badge-primary">Approved</span></td>
-                                        <td class="text-center"><a href="javascript:void(0);" class="bs-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" data-original-title="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle table-cancel"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="checkbox-column"> 5 </td>
-                                        <td>Lila</td>
-                                        <td>Perry</td>
-                                        <td>lila@adobe.com</td>
-                                        <td>444-444-4444</td>
-                                        <td class="text-center">
-                                            <span><img src="../src/assets/img/profile-14.jpg" class="rounded-circle profile-img" alt="avatar"></span>
-                                        </td>
-                                        <td class="text-center"><span class="shadow-none badge badge-warning">Suspended</span></td>
-                                        <td class="text-center"><a href="javascript:void(0);" class="bs-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" data-original-title="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle table-cancel"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="checkbox-column"> 6 </td>
-                                        <td>Traci</td>
-                                        <td>Lopez</td>
-                                        <td>traci@gmail.com</td>
-                                        <td>111-111-1111</td>
-                                        <td class="text-center">
-                                            <span><img src="../src/assets/img/profile-15.jpg" class="rounded-circle profile-img" alt="avatar"></span>
-                                        </td>
-                                        <td class="text-center"><span class="shadow-none badge badge-danger">Closed</span></td>
-                                        <td class="text-center"><a href="javascript:void(0);" class="bs-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" data-original-title="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle table-cancel"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="checkbox-column"> 7 </td>
-                                        <td>Nia</td>
-                                        <td>Hillyer</td>
-                                        <td>niaHill@yahoo.com</td>
-                                        <td>111-666-1111</td>
-                                        <td class="text-center">
-                                            <span><img src="../src/assets/img/profile-16.jpg" class="rounded-circle profile-img" alt="avatar"></span>
-                                        </td>
-                                        <td class="text-center"><span class="shadow-none badge badge-primary">Approved</span></td>
-                                        <td class="text-center"><a href="javascript:void(0);" class="bs-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete" data-original-title="Delete"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle table-cancel"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg></a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+            
 
             <!--  BEGIN FOOTER  -->
             <div class="footer-wrapper">
