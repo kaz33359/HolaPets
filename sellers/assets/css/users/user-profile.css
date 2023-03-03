@@ -191,7 +191,7 @@ body.minimal .widget-content-area {
     font-size: 15px;
 }
 .bio .widget-content-area .bio-skill-box {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     padding-bottom: 30px;
 }
 .bio .widget-content-area .b-skills {
