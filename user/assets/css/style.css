@@ -16934,7 +16934,7 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 .ec-header-bottom {
-  background-color: transparent;
+  background-color: #1c2560;
   padding: 25px 0;
   border-bottom: 1px solid #eeeeee;
 }
@@ -16972,7 +16972,7 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .header-icon i, .ec-header-bottons i {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  color: #444444;
+  color: #fbb03b;
   font-size: 27px;
   line-height: 1;
 }
@@ -17304,7 +17304,7 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .ec-main-menu ul li .mega-menu li ul li a {
   color: #777;
   text-transform: capitalize;
-  line-height: 30px;
+  line-height: 15px;
   font-weight: 400;
   font-size: 14px;
   display: block;
