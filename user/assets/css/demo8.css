@@ -21017,20 +21017,48 @@ section.ec-instagram-section {
 }
 
 .ec-main-slider .slide-1 {
-  background-image: url("../images/main-slider-banner/20.jpg");
+  background-image: url("../images/holapetz/slider1.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .ec-main-slider .slide-2 {
-  background-image: url("../images/main-slider-banner/21.jpg");
+  background-image: url("../images/holapetz/slider2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .ec-main-slider .slide-3 {
+  background-image: url("../images/holapetz/slider3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-1,
+.banner-2,
+.banner-3 {
+  height: 40vh;
+}
+
+
+.ec-main-slider .banner-1 {
+  background-image: url("../images/holapetz/banner1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ec-main-slider .banner-2 {
+  background-image: url("../images/holapetz/banner2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ec-main-slider .banner-3 {
   background-image: url("../images/main-slider-banner/22.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -24312,6 +24340,12 @@ i.ecicon.eci-star.fill {
     height: 55vh;
   }
 
+  .banner-1,
+  .banner-2,
+  .banner-3 {
+    height: 35vh;
+  }
+
   .col.ec-category-block {
     margin-bottom: 20px;
     -webkit-box-flex: 0;
@@ -24908,6 +24942,11 @@ i.ecicon.eci-star.fill {
   .slide-3 {
     height: 40vh;
   }
+  .banner-1,
+  .banner-2,
+  .banner-3 {
+    height: 20vh;
+  }
 
   .header-logo a img {
     width: 130px;
@@ -25261,6 +25300,11 @@ i.ecicon.eci-star.fill {
   .ec-main-slider .slide-3 {
     background-position: right;
   }
+  .ec-main-slider .banner-1,
+  .ec-main-slider .banner-2,
+  .ec-main-slider .banner-3 {
+    background-position: right;
+  }
 
   .header-logo {
     text-align: center !important;
@@ -25509,6 +25553,12 @@ i.ecicon.eci-star.fill {
   .slide-2,
   .slide-3 {
     height: 35vh;
+  }
+
+  .banner-1,
+  .banner-2,
+  .banner-3 {
+    height: 15vh;
   }
 
   .col.text-center.header-top-center {
