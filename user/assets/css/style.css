@@ -66,6 +66,25 @@
 /*-------------------------------------------------
   Fonts Family & Style CSS
 ---------------------------------------------------*/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:67px;
+	right:40px;
+	background-color:#fbb03b;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
 @font-face {
   font-family: "Poppins, sans-serif";
   src: url("../fonts/poppins/Poppins-Thin.ttf") format("truetype");
@@ -14516,18 +14535,22 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 #scrollUp {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   width: 40px;
   height: 40px;
-  background-color: #555;
+  background-color: #fbb03b;
   color: #ffffff;
-  right: 15px;
-  bottom: 70px;
+  right: 50px;
+  bottom: 15px;
   text-align: center;
   overflow: hidden;
-  z-index: 11 !important;
+  z-index: 15 !important;
   font-size: 18px;
   line-height: 40px;
-  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px rgba(12, 12, 12, 0.3);
+  box-shadow: 0 0 10px rgba(12, 12, 12, 0.3);
+  border-radius: 30px;
 }
 #scrollUp:hover {
   background: #fbb03b;

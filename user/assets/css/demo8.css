@@ -12,6 +12,26 @@
 /*-------------------------------------------------
   Fonts Family & Style CSS
 ---------------------------------------------------*/
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:67px;
+	right:40px;
+	background-color:#fbb03b;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
 @font-face {
   font-family: "Poppins, sans-serif";
   src: url("../fonts/poppins/Poppins-Thin.ttf") format("truetype");
@@ -18859,7 +18879,7 @@ body {
   height: 40px;
   background-color: #fbb03b;
   color: #ffffff;
-  right: 70px;
+  right: 50px;
   bottom: 15px;
   text-align: center;
   overflow: hidden;
