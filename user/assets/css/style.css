@@ -19461,7 +19461,7 @@ section.ec-instagram-section {
   display: block;
   width: 100%;
   padding-bottom: 10px;
-  border-bottom: 1px solid #eeeeee;
+  /* border-bottom: 1px solid #eeeeee; */
 }
 .ec-footer .footer-top .ec-footer-widget .ec-footer-links .ec-footer-link {
   display: block;
@@ -19500,7 +19500,7 @@ section.ec-instagram-section {
   margin-bottom: 11px;
   padding-bottom: 10px;
   border-bottom: 1px solid transparent;
-  display: none;
+  display: block;
 }
 .ec-footer .footer-top .ec-footer-contact ul {
   width: 245px;

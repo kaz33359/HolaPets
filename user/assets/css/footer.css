@@ -293,7 +293,7 @@
       .ec-footer .footer-top .ec-footer-contact .ec-footer-widget .ec-footer-links .ec-footer-link span i {
         font-size: 18px;
         line-height: 15px;
-        opacity: 0.4;
+        /* opacity: 0.4; */
       }
       
       .ec-footer .footer-top .ec-footer-social {
