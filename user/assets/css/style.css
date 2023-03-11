@@ -15625,8 +15625,8 @@ h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 .ec-cart-float {
   display: none;
   position: fixed;
-  bottom: 15px;
-  right: 70px;
+  bottom: 130px;
+  right: 43px;
   padding: 15px;
   -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
