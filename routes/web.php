@@ -1,6 +1,7 @@
 <?php
 
-use App\Http\Controllers\AdminController;
+use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\User\UserController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -30,3 +31,7 @@ Route::get('admin/viewProduct', [AdminController::class, 'viewProduct']);
 Route::get('admin/viewUser', [AdminController::class, 'viewUser']);
 Route::get('admin/viewVendor', [AdminController::class, 'viewVendor']);
 //admin-side
+
+//user side
+Route::get('/' , [UserController::class, 'dashboard']);
+Route::get('user/about' , [UserController::class, 'about']);
