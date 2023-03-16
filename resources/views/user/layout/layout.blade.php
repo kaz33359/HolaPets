@@ -129,14 +129,14 @@
                                 <button class="dropdown-toggle" data-bs-toggle="dropdown"><i class="fi-rr-user"></i></button>
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li><a class="dropdown-item" href="register.html">Register</a></li>
-                                    <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                    <li><a class="dropdown-item" href="{{ url ('user/checkout') }}">Checkout</a></li>
                                     <li><a class="dropdown-item" href="login.html">Login</a></li>
-                                    <li><a class="dropdown-item" href="user-profile.html">My Profile</a></li>
+                                    <li><a class="dropdown-item" href="{{ url ('user/userProfile') }}">My Profile</a></li>
                                 </ul>
                             </div>
                             <!-- Header User End -->
                             <!-- Header Cart Start -->
-                            <a href="wishlist.html" class="ec-header-btn ec-header-wishlist">
+                            <a href="{{ url ('user/wishlist') }}" class="ec-header-btn ec-header-wishlist">
                                 <div class="header-icon"><i class="fi-rr-heart"></i></div>
                                 <span class="ec-header-count">4</span>
                             </a>
@@ -167,7 +167,7 @@
                         <!-- Ec Header Logo Start -->
                         <div class="align-self-center">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/images/Holalogo/footerLogo.png" alt="Site Logo" /><img
+                                <a href="{{ url ('/') }}"><img src="assets/images/Holalogo/footerLogo.png" alt="Site Logo" /><img
                                         class="dark-logo" src="assets/images/Holalogo/footerLogo.png" alt="Site Logo"
                                         style="display: none;" /></a>
                             </div>
@@ -195,14 +195,14 @@
                                     <button class="dropdown-toggle" data-bs-toggle="dropdown"><i class="fi-rr-user"></i></button>
                                     <ul class="dropdown-menu dropdown-menu-right">
                                         <li><a class="dropdown-item" href="register.html">Register</a></li>
-                                        <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                        <li><a class="dropdown-item" href="{{ url ('user/checkout') }}">Checkout</a></li>
                                         <li><a class="dropdown-item" href="login.html">Login</a></li>
-                                        <li><a class="dropdown-item" href="user-profile.html">My Profile</a></li>
+                                        <li><a class="dropdown-item" href="{{ url ('user/userProfile') }}">My Profile</a></li>
                                     </ul>
                                 </div>
                                 <!-- Header User End -->
                                 <!-- Header wishlist Start -->
-                                <a href="wishlist.html" class="ec-header-btn ec-header-wishlist">
+                                <a href="{{ url ('user/wishlist') }}" class="ec-header-btn ec-header-wishlist">
                                     <div class="header-icon"><i class="fi-rr-heart"></i></div>
                                     <span class="ec-header-count">4</span>
                                 </a>
@@ -228,7 +228,7 @@
                     <!-- Ec Header Logo Start -->
                     <div class="col">
                         <div class="header-logo">
-                            <a href="index.html"><img src="assets/images/Holalogo/footerLogo.png" alt="Site Logo" /><img
+                            <a href="{{ url ('/') }}"><img src="assets/images/Holalogo/footerLogo.png" alt="Site Logo" /><img
                                     class="dark-logo" src="assets/images/Holalogo/footerLogo.png" alt="Site Logo"
                                     style="display: none;" /></a>
                         </div>
@@ -255,8 +255,8 @@
                     <div class="col-md-12 align-self-center">
                         <div class="ec-main-menu">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li class="dropdown"><a href="about-us.html">About</a>
+                                <li><a href="{{ url ('/') }}">Home</a></li>
+                                <li class="dropdown"><a href="{{ url ('user/about') }}">About</a>
                                     <!-- <ul class="sub-menu">
                                         <li><a href="about-us.html">About Us</a></li>
                                         <li><a href="contact-us.html">Contact Us</a></li>
@@ -276,131 +276,130 @@
                                         <li class="d-flex">
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">FOODS</a></li>
-                                                <li><a href="product.html">Dry Foods</a>
+                                                <li><a href="{{ url ('user/products') }}">Dry Foods</a>
                                                 </li>
-                                                <li><a href="product.html">Wet Food</a>
+                                                <li><a href="{{ url ('user/products') }}">Wet Food</a>
                                                 </li>
-                                                <li><a href="product.html">Puppy Food</a>
+                                                <li><a href="{{ url ('user/products') }}">Puppy Food</a>
                                                 </li>
-                                                <li><a href="product.html">Grain Free Food</a>
+                                                <li><a href="{{ url ('user/products') }}">Grain Free Food</a>
                                                 </li>
-                                                <li><a href="product.html">Hypoallergenic Food</a></li>
-                                                <li><a href="product.html">Supplements</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Hypoallergenic Food</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Supplements</a></li>
                                                 <br>
                                                 <li class="menu_title"><a href="javascript:void(0)">TREATS, BISCUITS & CHEWS</a></li>
-                                                <li><a href="product.html">Biscuits</a>
+                                                <li><a href="{{ url ('user/products') }}">Biscuits</a>
                                                 </li>
-                                                <li><a href="product.html">Vegetarian Treats</a>
+                                                <li><a href="{{ url ('user/products') }}">Vegetarian Treats</a>
                                                 </li>
-                                                <li><a href="product.html">Natural Treats</a>
+                                                <li><a href="{{ url ('user/products') }}">Natural Treats</a>
                                                 </li>
-                                                <li><a href="product.html">Puppy Treats</a>
+                                                <li><a href="{{ url ('user/products') }}">Puppy Treats</a>
                                                 </li>
-                                                <li><a href="product.html">Dental Treats</a></li>
-                                                <li><a href="product.html">Soft & Hard Chews</a></li>
-                                                <!-- <li><a href="product.html">View All Treats</a></li> -->
+                                                <li><a href="{{ url ('user/products') }}">Dental Treats</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Soft & Hard Chews</a></li>
+                                                <!-- <li><a href="{{ url ('user/products') }}">View All Treats</a></li> -->
 
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">WALK ESSENTIALS</a></li>
-                                                <li><a href="product.html">Collars</a></li>
-                                                <li><a href="product.html">Leashes</a></li>
-                                                <li><a href="product.html">Harnesses</a></li>
-                                                <li><a href="product.html">Name Tags</a></li>
-                                                <li><a href="product.html">Collar & Leash Set</a>
+                                                <li><a href="{{ url ('user/products') }}">Collars</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Leashes</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Harnesses</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Name Tags</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Collar & Leash Set</a>
                                                 </li>
-                                                <!-- <li><a href="product.html">Personalised</a></li> -->
+                                                <!-- <li><a href="{{ url ('user/products') }}">Personalised</a></li> -->
 
                                                 <br>
                                                 <li class="menu_title"><a href="javascript:void(0)">BEDDING & MATS</a></li>
-                                                <li><a href="product.html">Beds</a></li>
-                                                <li><a href="product.html">Mats</a></li>
-                                                <li><a href="product.html">Blankets & Cushions</a></li>
-                                                <li><a href="product.html">Bed Covers</a></li>
-                                                <li><a href="product.html">Collar & Leash Set</a>
+                                                <li><a href="{{ url ('user/products') }}">Beds</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Mats</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Blankets & Cushions</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Bed Covers</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Collar & Leash Set</a>
                                                 </li>
-                                                <!-- <li><a href="product.html">Personalised Bedding</a></li> -->
+                                                <!-- <li><a href="{{ url ('user/products') }}">Personalised Bedding</a></li> -->
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">GROOMING</a></li>
-                                                <li><a href="product.html">Shampoos, Conditioners</a></li>
-                                                <li><a href="product.html">Brushes & Combs</a></li>
-                                                <li><a href="product.html">Towels & Wipes</a></li>
-                                                <li><a href="product.html">Tick & Flea</a></li>
-                                                <li><a href="product.html">Dry Baths & Perfumes</a></li>
-                                                <li><a href="product.html">Paw Care</a></li>
-                                                <li><a href="product.html">Detangling Solutions</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Shampoos, Conditioners</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Brushes & Combs</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Towels & Wipes</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Tick & Flea</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Dry Baths & Perfumes</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Paw Care</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Detangling Solutions</a></li>
                                                 <br>
 
                                                 <li class="menu_title"><a href="javascript:void(0)">CLOTHING</a></li>
-                                                <li><a href="product.html">Jackets</a></li>
-                                                <li><a href="product.html">Sweatshirts</a></li>
-                                                <li><a href="product.html">Sweaters</a></li>
-                                                <li><a href="product.html">Raincoats</a></li>
-                                                <li><a href="product.html">T-Shirts & Shirts</a></li>
-                                                <li><a href="product.html">Dresses</a></li>
-                                                <li><a href="product.html">Special Occasion Wear</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Jackets</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Sweatshirts</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Sweaters</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Raincoats</a></li>
+                                                <li><a href="{{ url ('user/products') }}">T-Shirts & Shirts</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Dresses</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Special Occasion Wear</a></li>
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">TRAVEL</a>
                                                 </li>
-                                                <li><a href="product.html">Ramps & Steps</a></li>
-                                                <li><a href="product.html">Crates & Carriers</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Ramps & Steps</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Crates & Carriers</a></li>
                                             <br>
                                             <li class="menu_title"><a href="javascript:void(0)">DOGS TOYS</a>
                                             </li>
-                                            <li><a href="product.html">Chew Toys</a></li>
-                                            <li><a href="product.html">Balls</a></li>
-                                            <li><a href="product.html">Interactive Toys</a></li>
-                                            <li><a href="product.html">Tough Chewers</a></li>
-                                            <li><a href="product.html">Rope Toys</a></li>
-                                            <!-- <li><a href="product.html">View All Toys</a></li> -->
+                                            <li><a href="{{ url ('user/products') }}">Chew Toys</a></li>
+                                            <li><a href="{{ url ('user/products') }}">Balls</a></li>
+                                            <li><a href="{{ url ('user/products') }}">Interactive Toys</a></li>
+                                            <li><a href="{{ url ('user/products') }}">Tough Chewers</a></li>
+                                            <li><a href="{{ url ('user/products') }}">Rope Toys</a></li>
+                                            <!-- <li><a href="{{ url ('user/products') }}">View All Toys</a></li> -->
                                             </ul>
                                             
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">BOWLS & DINERS</a></li>
-                                                <li><a href="product.html">Steel Bowls</a></li>
-                                                <li><a href="product.html">Elevated Bowls</a></li>
-                                                <li><a href="product.html">Slow Feeders</a></li>
-                                                <li><a href="product.html">Licki Mats</a></li>
-                                                <li><a href="product.html">Anti Spills Mat</a>
+                                                <li><a href="{{ url ('user/products') }}">Steel Bowls</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Elevated Bowls</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Slow Feeders</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Licki Mats</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Anti Spills Mat</a>
                                                     
                                                     <br>
                                                     <li class="menu_title"><a href="javascript:void(0)">HEALTH & HYGIENE</a></li>
-                                                <li><a href="product.html">Supplements</a></li>
-                                                <li><a href="product.html">Oral Care</a></li>
-                                                <li><a href="product.html">Tick & Flea</a></li>
-                                                <li><a href="product.html">Stain & Odour</a></li>
-                                                <li><a href="product.html">Pee-Lock Powder</a>
+                                                <li><a href="{{ url ('user/products') }}">Supplements</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Oral Care</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Tick & Flea</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Stain & Odour</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Pee-Lock Powder</a>
                                                 </li>
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">DOG ACCESSORIES</a></li>
-                                                <li><a href="product.html">Bow Ties & Bandanas</a></li>
-                                                <li><a href="product.html">Party Accessories</a></li>
-                                                <li><a href="product.html">Shoes & Socks</a></li>
-                                                <!-- <li><a href="product.html">Personalised Accessories</a></li> -->
+                                                <li><a href="{{ url ('user/products') }}">Bow Ties & Bandanas</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Party Accessories</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Shoes & Socks</a></li>
                                                 
                                                 <br>
                                                 <li class="menu_title"><a href="javascript:void(0)">TRAINING AIDS</a></li>
-                                                <li><a href="product.html">Training Pads & Diapers</a></li>
-                                                <li><a href="product.html">Pens & Barriers</a></li>
-                                                <li><a href="product.html">Agility</a></li>
-                                                <li><a href="product.html">Training Treats</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Training Pads & Diapers</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Pens & Barriers</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Agility</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Training Treats</a></li>
                                             </ul>
                                         </li>
                                         <li>
                                             <ul class="ec-main-banner w-100">
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/dropBan.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/dropBan2.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/dropBan3.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/dropBan4.jpeg"
                                                             alt=""></a></li>
                                             </ul>
@@ -412,83 +411,78 @@
                                         <li class="d-flex">
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">FOODS</a></li>
-                                                <li><a href="product.html">Wet Food</a>
+                                                <li><a href="{{ url ('user/products') }}">Wet Food</a>
                                                 </li>
-                                                <li><a href="product.html">Dry Food</a>
+                                                <li><a href="{{ url ('user/products') }}">Dry Food</a>
                                                 </li>
-                                                <li><a href="product.html">Kitten Food</a>
+                                                <li><a href="{{ url ('user/products') }}">Kitten Food</a>
                                                 </li>
                                                 <br>
                                                 <li class="menu_title"><a href="javascript:void(0)">LITTER & SUPPLIES</a></li>
-                                                <li><a href="product.html">Litter</a></li>
-                                                <li><a href="product.html">Toilets & Trays</a>
+                                                <li><a href="{{ url ('user/products') }}">Litter</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Toilets & Trays</a>
                                                 </li>
-                                                <li><a href="product.html">Scoopers</a>
+                                                <li><a href="{{ url ('user/products') }}">Scoopers</a>
                                                 </li>
-                                                <li><a href="product.html">Stain & Odour</a>
+                                                <li><a href="{{ url ('user/products') }}">Stain & Odour</a>
                                                 </li>
                                                 
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">TREATS</a></li>
-                                                <li><a href="product.html">Natural Treats</a></li>
-                                                <li><a href="product.html">Creamy Treats</a></li>
-                                                <!-- <li><a href="product.html">View All Treats</a></li> -->
+                                                <li><a href="{{ url ('user/products') }}">Natural Treats</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Creamy Treats</a></li>
                                                 
                                                 <br>
                                                 <li class="menu_title"><a href="javascript:void(0)">CARRIERS</a></li>
-                                                <li><a href="product.html">Crates</a></li>
-                                                <li><a href="product.html">Carriers</a></li>
-                                                <!-- <li><a href="product.html">View All Treats</a></li> -->
+                                                <li><a href="{{ url ('user/products') }}">Crates</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Carriers</a></li>
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">CAT GROOMING</a></li>
-                                                <li><a href="product.html">Cat Shampoos</a></li>
-                                                <li><a href="product.html">Towels & Wipes</a></li>
-                                                <li><a href="product.html">Stain & Odour</a></li>
-                                                <li><a href="product.html">Tick & Flea</a></li>
-                                                <li><a href="product.html">Brushes & Combs</a>
+                                                <li><a href="{{ url ('user/products') }}">Cat Shampoos</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Towels & Wipes</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Stain & Odour</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Tick & Flea</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Brushes & Combs</a>
                                                 </li>
                                                 
                                                 <br>
                                                 <li class="menu_title"><a href="javascript:void(0)">CAT BEDDING</a></li>
-                                                <li><a href="product.html">Tents</a></li>
-                                                <li><a href="product.html">Beds</a></li>
-                                                <!-- <li><a href="product.html">Stain & Odour</a></li>
-                                                <li><a href="product.html">Tick & Flea</a></li>
-                                                <li><a href="product.html">Brushes & Combs</a>
-                                                </li> -->
+                                                <li><a href="{{ url ('user/products') }}">Tents</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Beds</a></li>
+                                                
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">COLLARS & ACCESSORIES</a>
                                                 </li>
-                                                <li><a href="product.html">Collars</a></li>
-                                                <li><a href="product.html">Harnesses</a></li>
-                                                <li><a href="product.html">Bandanas</a>
+                                                <li><a href="{{ url ('user/products') }}">Collars</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Harnesses</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Bandanas</a>
                                                     
                                                     <br>
                                                     <li class="menu_title"><a href="javascript:void(0)">TOYS</a>
                                                 </li>
-                                                <li><a href="product.html">Plush Toys</a></li>
-                                                <li><a href="product.html">Interactive Toys</a></li>
-                                                <li><a href="product.html">Catnip</a>
-                                                    <li><a href="product.html">Scratchers</a></li>
-                                                <li><a href="product.html">Scratchers</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Plush Toys</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Interactive Toys</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Catnip</a>
+                                                    <li><a href="{{ url ('user/products') }}">Scratchers</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Scratchers</a></li>
                                                 
                                             </ul>
                                         </li>
                                         <li>
                                             <ul class="ec-main-banner w-100">
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/catBan1.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/catBan2.jpeg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/catBan3.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/catBan4.jpg"
                                                             alt=""></a></li>
                                             </ul>
@@ -498,16 +492,16 @@
                                     <ul class="mega-menu d-block">
                                         <li>
                                             <ul class="ec-main-banner w-100">
-                                                <li><a class="p-0" href="product.html"><img
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img
                                                             class="img-responsive" src="assets/images/holapetz/otheranimals2.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img
                                                             class="img-responsive" src="assets/images/holapetz/otheranimals.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img
                                                             class="img-responsive" src="assets/images/holapetz/otheranimals3.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img
                                                             class="img-responsive" src="assets/images/holapetz/otheranimals4.jpg"
                                                             alt=""></a></li>
                                             </ul>
@@ -602,9 +596,9 @@
                                         </li>
                                     </ul>
                                 </li> -->
-                                <li class="dropdown"><a href="blog.html">Blog</a></li>
-                                <li class="dropdown"><a href="faq.html">FAQ</a></li>
-                                <li class="dropdown"><a href="contact-us.html">Contact</a></li>
+                                <li class="dropdown"><a href="{{ url ('user/blog') }}">Blog</a></li>
+                                <li class="dropdown"><a href="{{ url ('user/faq') }}">FAQ</a></li>
+                                <li class="dropdown"><a href="{{ url ('user/contact') }}">Contact</a></li>
                                 <!-- <li class="dropdown"><a href="javascript:void(0)">Elements</a>
                                     <ul class="sub-menu">
                                         <li><a href="elemets-products.html">Products</a></li>
@@ -634,128 +628,128 @@
             <div class="ec-menu-inner">
                 <div class="ec-menu-content">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="{{ url ('/') }}">Home</a></li>
+                        <li><a href="{{ url ('user/about') }}">About Us</a></li>
                         <li><a href="javascript:void(0)">Dogs</a>
                             <ul class="sub-menu">
                                  <li>
                                     <a href="javascript:void(0)">FOOD</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Dry Food</a></li>
-                                        <li><a href="product.html">Wet Food</a></li>
-                                        <li><a href="product.html">Puppy Food</a></li>
-                                        <li><a href="product.html">Grain Free Food</a></li>
-                                        <li><a href="product.html">Hypoallergenic Food</a></li>
-                                        <li><a href="product.html">Supplements</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Dry Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Wet Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Puppy Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Grain Free Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Hypoallergenic Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Supplements</a></li>
                                     </ul>
                                 </li>
                                  <li>
                                     <a href="javascript:void(0)">TREATS, BISCUITS & CHEWS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Biscuits</a></li>
-                                        <li><a href="product.html">Vegetarian Treats</a></li>
-                                        <li><a href="product.html">Natural Treats</a></li>
-                                        <li><a href="product.html">Puppy Treats</a></li>
-                                        <li><a href="product.html">Dental Treats</a></li>
-                                        <li><a href="product.html">Soft & Hard Chews</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Biscuits</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Vegetarian Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Natural Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Puppy Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Dental Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Soft & Hard Chews</a></li>
                                     </ul>
                                 </li>
                                  <li>
                                     <a href="javascript:void(0)">WALK ESSENTIALS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Collars</a></li>
-                                        <li><a href="product.html">Leashes</a></li>
-                                        <li><a href="product.html">Harnesses</a></li>
-                                        <li><a href="product.html">Name Tags</a></li>
-                                        <li><a href="product.html">Collar & Leash Set</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Collars</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Leashes</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Harnesses</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Name Tags</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Collar & Leash Set</a></li>
                                     </ul>
                                 </li>
                                  <li>
                                     <a href="javascript:void(0)">BEDDING & MATS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Beds</a></li>
-                                        <li><a href="product.html">Mats</a></li>
-                                        <li><a href="product.html">Blankets & Cushions</a></li>
-                                        <li><a href="product.html">Bed Covers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Beds</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Mats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Blankets & Cushions</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Bed Covers</a></li>
                                     </ul>
                                 </li>
 																<li>
                                     <a href="javascript:void(0)">GROOMING</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Shampoos, Conditioners</a></li>
-                                        <li><a href="product.html">Brushes & Combs</a></li>
-                                        <li><a href="product.html">Towels & Wipes</a></li>
-                                        <li><a href="product.html">Tick & Flea</a></li>
-                                        <li><a href="product.html">Dry Baths & Perfumes </a></li>
-                                        <li><a href="product.html">Paw Care </a></li>
-                                        <li><a href="product.html">Detangling Solutions </a></li>
+                                        <li><a href="{{ url ('user/products') }}">Shampoos, Conditioners</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Brushes & Combs</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Towels & Wipes</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Tick & Flea</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Dry Baths & Perfumes </a></li>
+                                        <li><a href="{{ url ('user/products') }}">Paw Care </a></li>
+                                        <li><a href="{{ url ('user/products') }}">Detangling Solutions </a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">CLOTHING</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Jackets</a></li>
-                                        <li><a href="product.html">Sweatshirts</a></li>
-                                        <li><a href="product.html">Sweaters</a></li>
-                                        <li><a href="product.html">Raincoats</a></li>
-                                        <li><a href="product.html">T-Shirts & Shirts</a></li>
-                                        <li><a href="product.html">Dresses</a></li>
-                                        <li><a href="product.html">Special Occasion Wear</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Jackets</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Sweatshirts</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Sweaters</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Raincoats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">T-Shirts & Shirts</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Dresses</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Special Occasion Wear</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">TRAVEL</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Ramps & Steps</a></li>
-                                        <li><a href="product.html">Crates & Carriers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Ramps & Steps</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Crates & Carriers</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">DOG TOYS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Chew Toys</a></li>
-                                        <li><a href="product.html">Plush Toys</a></li>
-                                        <li><a href="product.html">Balls</a></li>
-                                        <li><a href="product.html">Interactive Toys</a></li>
-                                        <li><a href="product.html">Tough Chewers</a></li>
-                                        <li><a href="product.html">Rope Toys</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Chew Toys</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Plush Toys</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Balls</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Interactive Toys</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Tough Chewers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Rope Toys</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">BOWLS & DINERS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Steel Bowls</a></li>
-                                        <li><a href="product.html">Elevated Bowls</a></li>
-                                        <li><a href="product.html">Slow Feeders</a></li>
-                                        <li><a href="product.html">Licki Mats</a></li>
-                                        <li><a href="product.html">Anti Spills Mat</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Steel Bowls</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Elevated Bowls</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Slow Feeders</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Licki Mats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Anti Spills Mat</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">HEALTH & HYGIENE</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Supplements</a></li>
-                                        <li><a href="product.html">Oral Care</a></li>
-                                        <li><a href="product.html">Tick & Flea</a></li>
-                                        <li><a href="product.html">Stain & Odour</a></li>
-                                        <li><a href="product.html">Pee-Lock Powder</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Supplements</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Oral Care</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Tick & Flea</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Stain & Odour</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Pee-Lock Powder</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">DOG ACCESSORIES</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Bow Ties & Bandanas</a></li>
-                                        <li><a href="product.html">Party Accessories</a></li>
-                                        <li><a href="product.html">Shoes & Socks</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Bow Ties & Bandanas</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Party Accessories</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Shoes & Socks</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">TRAINING AIDS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Training Pads & Diapers</a></li>
-                                        <li><a href="product.html">Pens & Barriers</a></li>
-                                        <li><a href="product.html">Agility</a></li>
-                                        <li><a href="product.html">Training Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Training Pads & Diapers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Pens & Barriers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Agility</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Training Treats</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -764,60 +758,60 @@
                             <ul class="sub-menu">
                                  <li><a href="javascript:void(0)">FOOD</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Wet Food</a></li>
-                                        <li><a href="product.html">Dry Food</a></li>
-                                        <li><a href="product.html">Kitten Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Wet Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Dry Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Kitten Food</a></li>
                                     </ul>
                                 </li>
                                  <li><a href="javascript:void(0)">LITTER & SUPPLIES</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Litter</a></li>
-                                        <li><a href="product.html">Toilets & Trays</a></li>
-                                        <li><a href="product.html">Scoopers</a></li>
-                                        <li><a href="product.html">Stain & Odour</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Litter</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Toilets & Trays</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Scoopers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Stain & Odour</a></li>
                                     </ul>
                                 </li>
                                  <li><a href="javascript:void(0)">COLLARS & ACCESSORIES</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Collars</a></li>
-                                        <li><a href="product.html">Harnesses</a></li>
-                                        <li><a href="product.html">Bandanas</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Collars</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Harnesses</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Bandanas</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="javascript:void(0)">TREATS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Natural Treats</a></li>
-                                        <li><a href="product.html">Creamy Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Natural Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Creamy Treats</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="javascript:void(0)">CARRIERS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Crates</a></li>
-                                        <li><a href="product.html">Carriers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Crates</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Carriers</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="javascript:void(0)">TOYS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Plush Toys</a></li>
-                                        <li><a href="product.html">Interactive Toys</a></li>
-                                        <li><a href="product.html">Catnip</a></li>
-                                        <li><a href="product.html">Scratchers</a></li>
-                                        <li><a href="product.html">Teaser & Wand</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Plush Toys</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Interactive Toys</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Catnip</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Scratchers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Teaser & Wand</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="javascript:void(0)">CAT GROOMING</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Cat Shampoos</a></li>
-                                        <li><a href="product.html">Towels & Wipes</a></li>
-                                        <li><a href="product.html">Stain & Odour</a></li>
-                                        <li><a href="product.html">Tick & Flea</a></li>
-                                        <li><a href="product.html">Brushes & Combs</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Cat Shampoos</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Towels & Wipes</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Stain & Odour</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Tick & Flea</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Brushes & Combs</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="javascript:void(0)">CAT BEDDING</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product">Tents</a></li>
-                                        <li><a href="product">Beds</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Tents</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Beds</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -886,7 +880,9 @@
                                 </li> -->
                             </ul>
                         </li>
-                        <li><a href="contact-us.html">Contact</a>
+                        <li><a href="{{ url ('user/blog') }}">Blog</a>
+                        <li><a href="{{ url ('user/faq') }}">Faq</a>
+                        <li><a href="{{ url ('user/contact') }}">Contact</a>
                             <!-- <ul class="sub-menu">
                                 <li><a href="about-us.html">About Us</a></li>
                                 <li><a href="contact-us.html">Contact Us</a></li>
@@ -1036,8 +1032,8 @@
                     </table>
                 </div>
                 <div class="cart_btn">
-                    <a href="cart.html" class="btn btn-primary">View Cart</a>
-                    <a href="checkout.html" class="btn btn-secondary">Checkout</a>
+                    <a href="{{ url ('user/cart') }}" class="btn btn-primary">View Cart</a>
+                    <a href="{{ url ('user/checkout') }}" class="btn btn-secondary">Checkout</a>
                 </div>
             </div>
         </div>
@@ -1056,7 +1052,7 @@
                         <div class="col-md-6 col-sm-12">
                             <!-- ec-breadcrumb-list start -->
                             <ul class="ec-breadcrumb-list">
-                                <li class="ec-breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="ec-breadcrumb-item"><a href="{{ url ('/') }}">Home</a></li>
                                 <li class="ec-breadcrumb-item active">@yield('breadcrumb')</li>
                             </ul>
                             <!-- ec-breadcrumb-list end -->
@@ -1080,59 +1076,59 @@
                             <div class="footer-cat-stitle">Brands Directory</div>
                             <div class="block">
                                 <span class="footer-cat-title">Fashion : </span>
-                                <a href="product.html">T-shirt</a><span> | </span>
-                                <a href="product.html">Shirts</a><span> | </span>
-                                <a href="product.html">shorts & jeans </a><span> | </span>
-                                <a href="product.html">jacket</a><span> | </span>
-                                <a href="product.html">dress & frock</a><span> | </span>
-                                <a href="product.html">innerwear</a>
-                                <a href="product.html">hosiery</a>
+                                <a href="{{ url ('user/products') }}">T-shirt</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Shirts</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">shorts & jeans </a><span> | </span>
+                                <a href="{{ url ('user/products') }}">jacket</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">dress & frock</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">innerwear</a>
+                                <a href="{{ url ('user/products') }}">hosiery</a>
                             </div>
                             <div class="block">
                                 <span class="footer-cat-title">footwear : </span>
-                                <a href="product.html">sport</a><span> | </span>
-                                <a href="product.html">formal</a><span> | </span>
-                                <a href="product.html">Boots</a><span> | </span>
-                                <a href="product.html">casual</a><span> | </span>
-                                <a href="product.html">cowboy shoes</a><span> | </span>
-                                <a href="product.html">safety shoes</a><span> | </span>
-                                <a href="product.html">Party wear shoes</a><span> | </span>
-                                <a href="product.html">Branded</a><span> | </span>
-                                <a href="product.html">Firstcopy</a><span> | </span>
-                                <a href="product.html">Long shoes</a>
+                                <a href="{{ url ('user/products') }}">sport</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">formal</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Boots</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">casual</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">cowboy shoes</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">safety shoes</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Party wear shoes</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Branded</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Firstcopy</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Long shoes</a>
                             </div>
                             <div class="block">
                                 <span class="footer-cat-title">jewellery : </span>
-                                <a href="product.html">Necklace</a><span> | </span>
-                                <a href="product.html">Earrings</a><span> | </span>
-                                <a href="product.html">Couple rings</a><span> | </span>
-                                <a href="product.html">Pendants</a><span> | </span>
-                                <a href="product.html">Crystal</a><span> | </span>
-                                <a href="product.html">Bangles</a><span> | </span>
-                                <a href="product.html">bracelets</a><span> | </span>
-                                <a href="product.html">nosepin</a><span> | </span>
-                                <a href="product.html">chain</a><span> | </span>
-                                <a href="product.html">Earrings</a><span> | </span>
-                                <a href="product.html">Couple rings</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Necklace</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Earrings</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Couple rings</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Pendants</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Crystal</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Bangles</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">bracelets</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">nosepin</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">chain</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Earrings</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Couple rings</a><span> | </span>
                             </div>
                             <div class="block">
                                 <span class="footer-cat-title">cosmetics : </span>
-                                <a href="product.html">Shampoo</a><span> | </span>
-                                <a href="product.html">Bodywash</a><span> | </span>
-                                <a href="product.html">Facewash</a><span> | </span>
-                                <a href="product.html">makeup kit</a><span> | </span>
-                                <a href="product.html">liner</a><span> | </span>
-                                <a href="product.html">lipstick</a><span> | </span>
-                                <a href="product.html">prefume</a><span> | </span>
-                                <a href="product.html">Body shop</a><span> | </span>
-                                <a href="product.html">scrub</a><span> | </span>
-                                <a href="product.html">hair gel</a><span> | </span>
-                                <a href="product.html">hair colors</a><span> | </span>
-                                <a href="product.html">hair dye</a><span> | </span>
-                                <a href="product.html">sunscreen</a><span> | </span>
-                                <a href="product.html">skin loson</a><span> | </span>
-                                <a href="product.html">liner</a><span> | </span>
-                                <a href="product.html">lipstick</a>
+                                <a href="{{ url ('user/products') }}">Shampoo</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Bodywash</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Facewash</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">makeup kit</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">liner</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">lipstick</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">prefume</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Body shop</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">scrub</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">hair gel</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">hair colors</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">hair dye</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">sunscreen</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">skin loson</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">liner</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">lipstick</a>
                             </div>
                         </div>
                     </div>
@@ -1165,7 +1161,7 @@
                                         <li class="ec-footer-link"><a href="#">Prices drop</a></li>
                                         <li class="ec-footer-link"><a href="#">New products</a></li>
                                         <li class="ec-footer-link"><a href="#">Best sales</a></li>
-                                        <li class="ec-footer-link"><a href="contact-us.html">Contact us</a></li>
+                                        <li class="ec-footer-link"><a href="{{ url ('user/contact') }}">Contact us</a></li>
                                         <li class="ec-footer-link"><a href="#">Sitemap</a></li>
                                     </ul>
                                 </div>
@@ -1179,8 +1175,8 @@
                                         <li class="ec-footer-link"><a href="track-order.html">Delivery</a></li>
                                         <li class="ec-footer-link"><a href="privacy-policy.html">Legal Notice</a></li>
                                         <li class="ec-footer-link"><a href="terms-condition.html">Terms and conditions</a></li>
-                                        <li class="ec-footer-link"><a href="about-us.html">About us</a></li>
-                                        <li class="ec-footer-link"><a href="checkout.html">Secure payment</a></li>
+                                        <li class="ec-footer-link"><a href="{{ url ('user/about') }}">About us</a></li>
+                                        <li class="ec-footer-link"><a href="{{ url ('user/checkout') }}">Secure payment</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1193,7 +1189,7 @@
                                         <li class="ec-footer-link"><a href="#">Prices drop</a></li>
                                         <li class="ec-footer-link"><a href="#">New products</a></li>
                                         <li class="ec-footer-link"><a href="#">Best sales</a></li>
-                                        <li class="ec-footer-link"><a href="contact-us.html">Contact us</a></li>
+                                        <li class="ec-footer-link"><a href="{{ url ('user/contact') }}">Contact us</a></li>
                                         <li class="ec-footer-link"><a href="#">Sitemap</a></li>
                                     </ul>
                                 </div>
@@ -1280,10 +1276,10 @@
                             class="ec-cart-noti ec-header-count cart-count-lable">3</span></a>
                 </div>
                 <div class="ec-nav-panel-icons">
-                    <a href="index.html" class="ec-header-btn"><i class="fi-rr-home"></i></a>
+                    <a href="{{ url ('/') }}" class="ec-header-btn"><i class="fi-rr-home"></i></a>
                 </div>
                 <div class="ec-nav-panel-icons">
-                    <a href="wishlist.html" class="ec-header-btn"><i class="fi-rr-heart"></i><span
+                    <a href="{{ url ('user/wishlist') }}" class="ec-header-btn"><i class="fi-rr-heart"></i><span
                             class="ec-cart-noti">4</span></a>
                 </div>
                 <div class="ec-nav-panel-icons">
