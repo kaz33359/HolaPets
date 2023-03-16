@@ -35,3 +35,14 @@ Route::get('admin/viewVendor', [AdminController::class, 'viewVendor']);
 //user side
 Route::get('/' , [UserController::class, 'dashboard']);
 Route::get('user/about' , [UserController::class, 'about']);
+Route::get('user/blog' , [UserController::class, 'blog']);
+Route::get('user/blogDetails' , [UserController::class, 'blogDetails']);
+Route::get('user/cart' , [UserController::class, 'cart']);
+Route::get('user/checkout' , [UserController::class, 'checkout']);
+Route::get('user/contact' , [UserController::class, 'contact']);
+Route::get('user/faq' , [UserController::class, 'faq']);
+Route::get('user/productDetails' , [UserController::class, 'productDetails']);
+Route::get('user/products' , [UserController::class, 'products']);
+Route::get('user/trackOrder' , [UserController::class, 'trackOrder']);
+Route::get('user/userProfile' , [UserController::class, 'userProfile']);
+Route::get('user/wishlist' , [UserController::class, 'wishlist']);

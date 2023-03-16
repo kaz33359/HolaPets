@@ -132,14 +132,14 @@
                                 <button class="dropdown-toggle" data-bs-toggle="dropdown"><i class="fi-rr-user"></i></button>
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li><a class="dropdown-item" href="register.html">Register</a></li>
-                                    <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                    <li><a class="dropdown-item" href="{{ url ('user/checkout') }}">Checkout</a></li>
                                     <li><a class="dropdown-item" href="login.html">Login</a></li>
-                                    <li><a class="dropdown-item" href="user-profile.html">My Profile</a></li>
+                                    <li><a class="dropdown-item" href="{{ url ('user/userProfile') }}">My Profile</a></li>
                                 </ul>
                             </div>
                             <!-- Header User End -->
                             <!-- Header Cart Start -->
-                            <a href="wishlist.html" class="ec-header-btn ec-header-wishlist">
+                            <a href="{{ url ('user/wishlist') }}" class="ec-header-btn ec-header-wishlist">
                                 <div class="header-icon"><i class="fi-rr-heart"></i></div>
                                 <span class="ec-header-count">4</span>
                             </a>
@@ -170,7 +170,7 @@
                         <!-- Ec Header Logo Start -->
                         <div class="align-self-center">
                             <div class="header-logo">
-                                <a href="index.html"><img src="{{ asset('user/assets/images/Holalogo/footerLogo.png')}}" alt="Site Logo" /><img
+                                <a href="{{ url ('/') }}"><img src="{{ asset('user/assets/images/Holalogo/footerLogo.png')}}" alt="Site Logo" /><img
                                     class="dark-logo" src="{{ asset('user/assets/images/Holalogo/footerLogo.png')}}" alt="Site Logo"
                                         style="display: none;" /></a>
                             </div>
@@ -197,14 +197,14 @@
                                     <button class="dropdown-toggle" data-bs-toggle="dropdown"><i class="fi-rr-user"></i></button>
                                     <ul class="dropdown-menu dropdown-menu-right">
                                         <li><a class="dropdown-item" href="register.html">Register</a></li>
-                                        <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                                        <li><a class="dropdown-item" href="{{ url ('user/checkout') }}">Checkout</a></li>
                                         <li><a class="dropdown-item" href="login.html">Login</a></li>
-                                        <li><a class="dropdown-item" href="user-profile.html">My Profile</a></li>
+                                        <li><a class="dropdown-item" href="{{ url ('user/userProfile') }}">My Profile</a></li>
                                     </ul>
                                 </div>
                                 <!-- Header User End -->
                                 <!-- Header wishlist Start -->
-                                <a href="wishlist.html" class="ec-header-btn ec-header-wishlist">
+                                <a href="{{ url ('user/wishlist') }}" class="ec-header-btn ec-header-wishlist">
                                     <div class="header-icon"><i class="fi-rr-heart"></i></div>
                                     <span class="ec-header-count">4</span>
                                 </a>
@@ -231,7 +231,7 @@
                     <!-- Ec Header Logo Start -->
                     <div class="col">
                         <div class="header-logo">
-                            <a href="index.html"><img src="{{ asset('user/assets/images/Holalogo/footerLogo.png')}}" alt="Site Logo" /><img
+                            <a href="{{ url ('/') }}"><img src="{{ asset('user/assets/images/Holalogo/footerLogo.png')}}" alt="Site Logo" /><img
                                     class="dark-logo" src="{{ asset('user/assets/images/Holalogo/footerLogo.png')}}" alt="Site Logo"
                                     style="display: none;" /></a>
                         </div>
@@ -279,131 +279,131 @@
                                         <li class="d-flex">
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">FOODS</a></li>
-                                                <li><a href="product.html">Dry Foods</a>
+                                                <li><a href="{{ url ('user/products') }}">Dry Foods</a>
                                                 </li>
-                                                <li><a href="product.html">Wet Food</a>
+                                                <li><a href="{{ url ('user/products') }}">Wet Food</a>
                                                 </li>
-                                                <li><a href="product.html">Puppy Food</a>
+                                                <li><a href="{{ url ('user/products') }}">Puppy Food</a>
                                                 </li>
-                                                <li><a href="product.html">Grain Free Food</a>
+                                                <li><a href="{{ url ('user/products') }}">Grain Free Food</a>
                                                 </li>
-                                                <li><a href="product.html">Hypoallergenic Food</a></li>
-                                                <li><a href="product.html">Supplements</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Hypoallergenic Food</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Supplements</a></li>
                                                 <br>
                                                 <li class="menu_title"><a href="javascript:void(0)">TREATS, BISCUITS & CHEWS</a></li>
-                                                <li><a href="product.html">Biscuits</a>
+                                                <li><a href="{{ url ('user/products') }}">Biscuits</a>
                                                 </li>
-                                                <li><a href="product.html">Vegetarian Treats</a>
+                                                <li><a href="{{ url ('user/products') }}">Vegetarian Treats</a>
                                                 </li>
-                                                <li><a href="product.html">Natural Treats</a>
+                                                <li><a href="{{ url ('user/products') }}">Natural Treats</a>
                                                 </li>
-                                                <li><a href="product.html">Puppy Treats</a>
+                                                <li><a href="{{ url ('user/products') }}">Puppy Treats</a>
                                                 </li>
-                                                <li><a href="product.html">Dental Treats</a></li>
-                                                <li><a href="product.html">Soft & Hard Chews</a></li>
-                                                <!-- <li><a href="product.html">View All Treats</a></li> -->
+                                                <li><a href="{{ url ('user/products') }}">Dental Treats</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Soft & Hard Chews</a></li>
+                                                <!-- <li><a href="{{ url ('user/products') }}">View All Treats</a></li> -->
 
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">WALK ESSENTIALS</a></li>
-                                                <li><a href="product.html">Collars</a></li>
-                                                <li><a href="product.html">Leashes</a></li>
-                                                <li><a href="product.html">Harnesses</a></li>
-                                                <li><a href="product.html">Name Tags</a></li>
-                                                <li><a href="product.html">Collar & Leash Set</a>
+                                                <li><a href="{{ url ('user/products') }}">Collars</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Leashes</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Harnesses</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Name Tags</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Collar & Leash Set</a>
                                                 </li>
-                                                <!-- <li><a href="product.html">Personalised</a></li> -->
+                                                <!-- <li><a href="{{ url ('user/products') }}">Personalised</a></li> -->
 
                                                 <br>
                                                 <li class="menu_title"><a href="javascript:void(0)">BEDDING & MATS</a></li>
-                                                <li><a href="product.html">Beds</a></li>
-                                                <li><a href="product.html">Mats</a></li>
-                                                <li><a href="product.html">Blankets & Cushions</a></li>
-                                                <li><a href="product.html">Bed Covers</a></li>
-                                                <li><a href="product.html">Collar & Leash Set</a>
+                                                <li><a href="{{ url ('user/products') }}">Beds</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Mats</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Blankets & Cushions</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Bed Covers</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Collar & Leash Set</a>
                                                 </li>
-                                                <!-- <li><a href="product.html">Personalised Bedding</a></li> -->
+                                                <!-- <li><a href="{{ url ('user/products') }}">Personalised Bedding</a></li> -->
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">GROOMING</a></li>
-                                                <li><a href="product.html">Shampoos, Conditioners</a></li>
-                                                <li><a href="product.html">Brushes & Combs</a></li>
-                                                <li><a href="product.html">Towels & Wipes</a></li>
-                                                <li><a href="product.html">Tick & Flea</a></li>
-                                                <li><a href="product.html">Dry Baths & Perfumes</a></li>
-                                                <li><a href="product.html">Paw Care</a></li>
-                                                <li><a href="product.html">Detangling Solutions</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Shampoos, Conditioners</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Brushes & Combs</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Towels & Wipes</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Tick & Flea</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Dry Baths & Perfumes</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Paw Care</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Detangling Solutions</a></li>
                                                 <br>
 
                                                 <li class="menu_title"><a href="javascript:void(0)">CLOTHING</a></li>
-                                                <li><a href="product.html">Jackets</a></li>
-                                                <li><a href="product.html">Sweatshirts</a></li>
-                                                <li><a href="product.html">Sweaters</a></li>
-                                                <li><a href="product.html">Raincoats</a></li>
-                                                <li><a href="product.html">T-Shirts & Shirts</a></li>
-                                                <li><a href="product.html">Dresses</a></li>
-                                                <li><a href="product.html">Special Occasion Wear</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Jackets</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Sweatshirts</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Sweaters</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Raincoats</a></li>
+                                                <li><a href="{{ url ('user/products') }}">T-Shirts & Shirts</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Dresses</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Special Occasion Wear</a></li>
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">TRAVEL</a>
                                                 </li>
-                                                <li><a href="product.html">Ramps & Steps</a></li>
-                                                <li><a href="product.html">Crates & Carriers</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Ramps & Steps</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Crates & Carriers</a></li>
                                             <br>
                                             <li class="menu_title"><a href="javascript:void(0)">DOGS TOYS</a>
                                             </li>
-                                            <li><a href="product.html">Chew Toys</a></li>
-                                            <li><a href="product.html">Balls</a></li>
-                                            <li><a href="product.html">Interactive Toys</a></li>
-                                            <li><a href="product.html">Tough Chewers</a></li>
-                                            <li><a href="product.html">Rope Toys</a></li>
-                                            <!-- <li><a href="product.html">View All Toys</a></li> -->
+                                            <li><a href="{{ url ('user/products') }}">Chew Toys</a></li>
+                                            <li><a href="{{ url ('user/products') }}">Balls</a></li>
+                                            <li><a href="{{ url ('user/products') }}">Interactive Toys</a></li>
+                                            <li><a href="{{ url ('user/products') }}">Tough Chewers</a></li>
+                                            <li><a href="{{ url ('user/products') }}">Rope Toys</a></li>
+                                            <!-- <li><a href="{{ url ('user/products') }}">View All Toys</a></li> -->
                                             </ul>
                                             
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">BOWLS & DINERS</a></li>
-                                                <li><a href="product.html">Steel Bowls</a></li>
-                                                <li><a href="product.html">Elevated Bowls</a></li>
-                                                <li><a href="product.html">Slow Feeders</a></li>
-                                                <li><a href="product.html">Licki Mats</a></li>
-                                                <li><a href="product.html">Anti Spills Mat</a>
+                                                <li><a href="{{ url ('user/products') }}">Steel Bowls</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Elevated Bowls</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Slow Feeders</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Licki Mats</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Anti Spills Mat</a>
                                                     
                                                     <br>
                                                     <li class="menu_title"><a href="javascript:void(0)">HEALTH & HYGIENE</a></li>
-                                                <li><a href="product.html">Supplements</a></li>
-                                                <li><a href="product.html">Oral Care</a></li>
-                                                <li><a href="product.html">Tick & Flea</a></li>
-                                                <li><a href="product.html">Stain & Odour</a></li>
-                                                <li><a href="product.html">Pee-Lock Powder</a>
+                                                <li><a href="{{ url ('user/products') }}">Supplements</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Oral Care</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Tick & Flea</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Stain & Odour</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Pee-Lock Powder</a>
                                                 </li>
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">DOG ACCESSORIES</a></li>
-                                                <li><a href="product.html">Bow Ties & Bandanas</a></li>
-                                                <li><a href="product.html">Party Accessories</a></li>
-                                                <li><a href="product.html">Shoes & Socks</a></li>
-                                                <!-- <li><a href="product.html">Personalised Accessories</a></li> -->
+                                                <li><a href="{{ url ('user/products') }}">Bow Ties & Bandanas</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Party Accessories</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Shoes & Socks</a></li>
+                                                <!-- <li><a href="{{ url ('user/products') }}">Personalised Accessories</a></li> -->
                                                 
                                                 <br>
                                                 <li class="menu_title"><a href="javascript:void(0)">TRAINING AIDS</a></li>
-                                                <li><a href="product.html">Training Pads & Diapers</a></li>
-                                                <li><a href="product.html">Pens & Barriers</a></li>
-                                                <li><a href="product.html">Agility</a></li>
-                                                <li><a href="product.html">Training Treats</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Training Pads & Diapers</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Pens & Barriers</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Agility</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Training Treats</a></li>
                                             </ul>
                                         </li>
                                         <li>
                                             <ul class="ec-main-banner w-100">
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/dropBan.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/dropBan2.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/dropBan3.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/dropBan4.jpeg"
                                                             alt=""></a></li>
                                             </ul>
@@ -415,83 +415,83 @@
                                         <li class="d-flex">
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">FOODS</a></li>
-                                                <li><a href="product.html">Wet Food</a>
+                                                <li><a href="{{ url ('user/products') }}">Wet Food</a>
                                                 </li>
-                                                <li><a href="product.html">Dry Food</a>
+                                                <li><a href="{{ url ('user/products') }}">Dry Food</a>
                                                 </li>
-                                                <li><a href="product.html">Kitten Food</a>
+                                                <li><a href="{{ url ('user/products') }}">Kitten Food</a>
                                                 </li>
                                                 <br>
                                                 <li class="menu_title"><a href="javascript:void(0)">LITTER & SUPPLIES</a></li>
-                                                <li><a href="product.html">Litter</a></li>
-                                                <li><a href="product.html">Toilets & Trays</a>
+                                                <li><a href="{{ url ('user/products') }}">Litter</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Toilets & Trays</a>
                                                 </li>
-                                                <li><a href="product.html">Scoopers</a>
+                                                <li><a href="{{ url ('user/products') }}">Scoopers</a>
                                                 </li>
-                                                <li><a href="product.html">Stain & Odour</a>
+                                                <li><a href="{{ url ('user/products') }}">Stain & Odour</a>
                                                 </li>
                                                 
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">TREATS</a></li>
-                                                <li><a href="product.html">Natural Treats</a></li>
-                                                <li><a href="product.html">Creamy Treats</a></li>
-                                                <!-- <li><a href="product.html">View All Treats</a></li> -->
+                                                <li><a href="{{ url ('user/products') }}">Natural Treats</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Creamy Treats</a></li>
+                                                <!-- <li><a href="{{ url ('user/products') }}">View All Treats</a></li> -->
                                                 
                                                 <br>
                                                 <li class="menu_title"><a href="javascript:void(0)">CARRIERS</a></li>
-                                                <li><a href="product.html">Crates</a></li>
-                                                <li><a href="product.html">Carriers</a></li>
-                                                <!-- <li><a href="product.html">View All Treats</a></li> -->
+                                                <li><a href="{{ url ('user/products') }}">Crates</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Carriers</a></li>
+                                                <!-- <li><a href="{{ url ('user/products') }}">View All Treats</a></li> -->
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">CAT GROOMING</a></li>
-                                                <li><a href="product.html">Cat Shampoos</a></li>
-                                                <li><a href="product.html">Towels & Wipes</a></li>
-                                                <li><a href="product.html">Stain & Odour</a></li>
-                                                <li><a href="product.html">Tick & Flea</a></li>
-                                                <li><a href="product.html">Brushes & Combs</a>
+                                                <li><a href="{{ url ('user/products') }}">Cat Shampoos</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Towels & Wipes</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Stain & Odour</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Tick & Flea</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Brushes & Combs</a>
                                                 </li>
                                                 
                                                 <br>
                                                 <li class="menu_title"><a href="javascript:void(0)">CAT BEDDING</a></li>
-                                                <li><a href="product.html">Tents</a></li>
-                                                <li><a href="product.html">Beds</a></li>
-                                                <!-- <li><a href="product.html">Stain & Odour</a></li>
-                                                <li><a href="product.html">Tick & Flea</a></li>
-                                                <li><a href="product.html">Brushes & Combs</a>
+                                                <li><a href="{{ url ('user/products') }}">Tents</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Beds</a></li>
+                                                <!-- <li><a href="{{ url ('user/products') }}">Stain & Odour</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Tick & Flea</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Brushes & Combs</a>
                                                 </li> -->
                                             </ul>
                                             <ul class="d-block">
                                                 <li class="menu_title"><a href="javascript:void(0)">COLLARS & ACCESSORIES</a>
                                                 </li>
-                                                <li><a href="product.html">Collars</a></li>
-                                                <li><a href="product.html">Harnesses</a></li>
-                                                <li><a href="product.html">Bandanas</a>
+                                                <li><a href="{{ url ('user/products') }}">Collars</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Harnesses</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Bandanas</a>
                                                     
                                                     <br>
                                                     <li class="menu_title"><a href="javascript:void(0)">TOYS</a>
                                                 </li>
-                                                <li><a href="product.html">Plush Toys</a></li>
-                                                <li><a href="product.html">Interactive Toys</a></li>
-                                                <li><a href="product.html">Catnip</a>
-                                                    <li><a href="product.html">Scratchers</a></li>
-                                                <li><a href="product.html">Scratchers</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Plush Toys</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Interactive Toys</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Catnip</a>
+                                                    <li><a href="{{ url ('user/products') }}">Scratchers</a></li>
+                                                <li><a href="{{ url ('user/products') }}">Scratchers</a></li>
                                                 
                                             </ul>
                                         </li>
                                         <li>
                                             <ul class="ec-main-banner w-100">
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/catBan1.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/catBan2.jpeg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/catBan3.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img style="height: 160px; width: 305px;"
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img style="height: 160px; width: 305px;"
                                                             class="img-responsive" src="assets/images/holapetz/catBan4.jpg"
                                                             alt=""></a></li>
                                             </ul>
@@ -501,16 +501,16 @@
                                     <ul class="mega-menu d-block">
                                         <li>
                                             <ul class="ec-main-banner w-100">
-                                                <li><a class="p-0" href="product.html"><img
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img
                                                             class="img-responsive" src="assets/images/holapetz/otheranimals2.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img
                                                             class="img-responsive" src="assets/images/holapetz/otheranimals.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img
                                                             class="img-responsive" src="assets/images/holapetz/otheranimals3.jpg"
                                                             alt=""></a></li>
-                                                <li><a class="p-0" href="product.html"><img
+                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img
                                                             class="img-responsive" src="assets/images/holapetz/otheranimals4.jpg"
                                                             alt=""></a></li>
                                             </ul>
@@ -605,9 +605,9 @@
                                         </li>
                                     </ul>
                                 </li> -->
-                                <li class="dropdown"><a href="blog.html">Blog</a></li>
-                                <li class="dropdown"><a href="faq.html">FAQ</a></li>
-                                <li class="dropdown"><a href="contact-us.html">Contact</a></li>
+                                <li class="dropdown"><a href="{{ url ('user/blog') }}">Blog</a></li>
+                                <li class="dropdown"><a href="{{ url ('user/faq') }}">FAQ</a></li>
+                                <li class="dropdown"><a href="{{ url ('user/contact') }}">Contact</a></li>
                                 <!-- <li class="dropdown"><a href="javascript:void(0)">Elements</a>
                                     <ul class="sub-menu">
                                         <li><a href="elemets-products.html">Products</a></li>
@@ -637,128 +637,128 @@
             <div class="ec-menu-inner">
                 <div class="ec-menu-content">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="{{ url ('/') }}">Home</a></li>
+                        <li><a href="{{ url ('user/about') }}">About Us</a></li>
                         <li><a href="javascript:void(0)">Dogs</a>
                             <ul class="sub-menu">
                                  <li>
                                     <a href="javascript:void(0)">FOOD</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Dry Food</a></li>
-                                        <li><a href="product.html">Wet Food</a></li>
-                                        <li><a href="product.html">Puppy Food</a></li>
-                                        <li><a href="product.html">Grain Free Food</a></li>
-                                        <li><a href="product.html">Hypoallergenic Food</a></li>
-                                        <li><a href="product.html">Supplements</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Dry Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Wet Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Puppy Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Grain Free Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Hypoallergenic Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Supplements</a></li>
                                     </ul>
                                 </li>
                                  <li>
                                     <a href="javascript:void(0)">TREATS, BISCUITS & CHEWS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Biscuits</a></li>
-                                        <li><a href="product.html">Vegetarian Treats</a></li>
-                                        <li><a href="product.html">Natural Treats</a></li>
-                                        <li><a href="product.html">Puppy Treats</a></li>
-                                        <li><a href="product.html">Dental Treats</a></li>
-                                        <li><a href="product.html">Soft & Hard Chews</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Biscuits</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Vegetarian Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Natural Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Puppy Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Dental Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Soft & Hard Chews</a></li>
                                     </ul>
                                 </li>
                                  <li>
                                     <a href="javascript:void(0)">WALK ESSENTIALS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Collars</a></li>
-                                        <li><a href="product.html">Leashes</a></li>
-                                        <li><a href="product.html">Harnesses</a></li>
-                                        <li><a href="product.html">Name Tags</a></li>
-                                        <li><a href="product.html">Collar & Leash Set</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Collars</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Leashes</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Harnesses</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Name Tags</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Collar & Leash Set</a></li>
                                     </ul>
                                 </li>
                                  <li>
                                     <a href="javascript:void(0)">BEDDING & MATS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Beds</a></li>
-                                        <li><a href="product.html">Mats</a></li>
-                                        <li><a href="product.html">Blankets & Cushions</a></li>
-                                        <li><a href="product.html">Bed Covers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Beds</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Mats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Blankets & Cushions</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Bed Covers</a></li>
                                     </ul>
                                 </li>
 																<li>
                                     <a href="javascript:void(0)">GROOMING</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Shampoos, Conditioners</a></li>
-                                        <li><a href="product.html">Brushes & Combs</a></li>
-                                        <li><a href="product.html">Towels & Wipes</a></li>
-                                        <li><a href="product.html">Tick & Flea</a></li>
-                                        <li><a href="product.html">Dry Baths & Perfumes </a></li>
-                                        <li><a href="product.html">Paw Care </a></li>
-                                        <li><a href="product.html">Detangling Solutions </a></li>
+                                        <li><a href="{{ url ('user/products') }}">Shampoos, Conditioners</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Brushes & Combs</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Towels & Wipes</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Tick & Flea</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Dry Baths & Perfumes </a></li>
+                                        <li><a href="{{ url ('user/products') }}">Paw Care </a></li>
+                                        <li><a href="{{ url ('user/products') }}">Detangling Solutions </a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">CLOTHING</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Jackets</a></li>
-                                        <li><a href="product.html">Sweatshirts</a></li>
-                                        <li><a href="product.html">Sweaters</a></li>
-                                        <li><a href="product.html">Raincoats</a></li>
-                                        <li><a href="product.html">T-Shirts & Shirts</a></li>
-                                        <li><a href="product.html">Dresses</a></li>
-                                        <li><a href="product.html">Special Occasion Wear</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Jackets</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Sweatshirts</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Sweaters</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Raincoats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">T-Shirts & Shirts</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Dresses</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Special Occasion Wear</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">TRAVEL</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Ramps & Steps</a></li>
-                                        <li><a href="product.html">Crates & Carriers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Ramps & Steps</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Crates & Carriers</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">DOG TOYS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Chew Toys</a></li>
-                                        <li><a href="product.html">Plush Toys</a></li>
-                                        <li><a href="product.html">Balls</a></li>
-                                        <li><a href="product.html">Interactive Toys</a></li>
-                                        <li><a href="product.html">Tough Chewers</a></li>
-                                        <li><a href="product.html">Rope Toys</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Chew Toys</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Plush Toys</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Balls</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Interactive Toys</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Tough Chewers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Rope Toys</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">BOWLS & DINERS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Steel Bowls</a></li>
-                                        <li><a href="product.html">Elevated Bowls</a></li>
-                                        <li><a href="product.html">Slow Feeders</a></li>
-                                        <li><a href="product.html">Licki Mats</a></li>
-                                        <li><a href="product.html">Anti Spills Mat</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Steel Bowls</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Elevated Bowls</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Slow Feeders</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Licki Mats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Anti Spills Mat</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">HEALTH & HYGIENE</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Supplements</a></li>
-                                        <li><a href="product.html">Oral Care</a></li>
-                                        <li><a href="product.html">Tick & Flea</a></li>
-                                        <li><a href="product.html">Stain & Odour</a></li>
-                                        <li><a href="product.html">Pee-Lock Powder</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Supplements</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Oral Care</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Tick & Flea</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Stain & Odour</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Pee-Lock Powder</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">DOG ACCESSORIES</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Bow Ties & Bandanas</a></li>
-                                        <li><a href="product.html">Party Accessories</a></li>
-                                        <li><a href="product.html">Shoes & Socks</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Bow Ties & Bandanas</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Party Accessories</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Shoes & Socks</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="javascript:void(0)">TRAINING AIDS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Training Pads & Diapers</a></li>
-                                        <li><a href="product.html">Pens & Barriers</a></li>
-                                        <li><a href="product.html">Agility</a></li>
-                                        <li><a href="product.html">Training Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Training Pads & Diapers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Pens & Barriers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Agility</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Training Treats</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -767,54 +767,54 @@
                             <ul class="sub-menu">
                                  <li><a href="javascript:void(0)">FOOD</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Wet Food</a></li>
-                                        <li><a href="product.html">Dry Food</a></li>
-                                        <li><a href="product.html">Kitten Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Wet Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Dry Food</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Kitten Food</a></li>
                                     </ul>
                                 </li>
                                  <li><a href="javascript:void(0)">LITTER & SUPPLIES</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Litter</a></li>
-                                        <li><a href="product.html">Toilets & Trays</a></li>
-                                        <li><a href="product.html">Scoopers</a></li>
-                                        <li><a href="product.html">Stain & Odour</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Litter</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Toilets & Trays</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Scoopers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Stain & Odour</a></li>
                                     </ul>
                                 </li>
                                  <li><a href="javascript:void(0)">COLLARS & ACCESSORIES</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Collars</a></li>
-                                        <li><a href="product.html">Harnesses</a></li>
-                                        <li><a href="product.html">Bandanas</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Collars</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Harnesses</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Bandanas</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="javascript:void(0)">TREATS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Natural Treats</a></li>
-                                        <li><a href="product.html">Creamy Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Natural Treats</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Creamy Treats</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="javascript:void(0)">CARRIERS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Crates</a></li>
-                                        <li><a href="product.html">Carriers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Crates</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Carriers</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="javascript:void(0)">TOYS</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Plush Toys</a></li>
-                                        <li><a href="product.html">Interactive Toys</a></li>
-                                        <li><a href="product.html">Catnip</a></li>
-                                        <li><a href="product.html">Scratchers</a></li>
-                                        <li><a href="product.html">Teaser & Wand</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Plush Toys</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Interactive Toys</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Catnip</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Scratchers</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Teaser & Wand</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="javascript:void(0)">CAT GROOMING</a>
                                     <ul class="sub-menu">
-                                        <li><a href="product.html">Cat Shampoos</a></li>
-                                        <li><a href="product.html">Towels & Wipes</a></li>
-                                        <li><a href="product.html">Stain & Odour</a></li>
-                                        <li><a href="product.html">Tick & Flea</a></li>
-                                        <li><a href="product.html">Brushes & Combs</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Cat Shampoos</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Towels & Wipes</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Stain & Odour</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Tick & Flea</a></li>
+                                        <li><a href="{{ url ('user/products') }}">Brushes & Combs</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="javascript:void(0)">CAT BEDDING</a>
@@ -889,8 +889,9 @@
                                 </li> -->
                             </ul>
                         </li>
-                        <li><a href="blog.html">blog</a>
-                        <li><a href="contact-us.html">Contact</a>
+                        <li><a href="{{ url ('user/blog') }}">Blog</a>
+                        <li><a href="{{ url ('user/faq') }}">Faq</a>
+                        <li><a href="{{ url ('user/contact') }}">Contact</a>
                             <!-- <ul class="sub-menu">
                                 <li><a href="about-us.html">About Us</a></li>
                                 <li><a href="contact-us.html">Contact Us</a></li>
@@ -983,10 +984,10 @@
                 </div>
                 <ul class="eccart-pro-items">
                     <li>
-                        <a href="productdetails.html" class="sidecart_pro_img"><img
+                        <a href="{{ url ('user/productDetails') }}" class="sidecart_pro_img"><img
                                 src="{{ asset('user/assets/images/holapetz/drools2.jpg')}}" alt="product"></a>
                         <div class="ec-pro-content">
-                            <a href="single-productdetails.html" class="cart_pro_title">Mens Winter Leathers Jackets</a>
+                            <a href="single-{{ url ('user/productDetails') }}" class="cart_pro_title">Mens Winter Leathers Jackets</a>
                             <span class="cart-price"><span>$49.00</span> x 1</span>
                             <div class="qty-plus-minus">
                                 <input class="qty-input" type="text" name="ec_qtybtn" value="1" />
@@ -995,10 +996,10 @@
                         </div>
                     </li>
                     <li>
-                        <a href="productdetails.html" class="sidecart_pro_img"><img
+                        <a href="{{ url ('user/productDetails') }}" class="sidecart_pro_img"><img
                                 src="{{ asset('user/assets/images/holapetz/drools.jpg')}}" alt="product"></a>
                         <div class="ec-pro-content">
-                            <a href="productdetails.html" class="cart_pro_title">Running & Trekking Shoes - White</a>
+                            <a href="{{ url ('user/productDetails') }}" class="cart_pro_title">Running & Trekking Shoes - White</a>
                             <span class="cart-price"><span>$150.00</span> x 1</span>
                             <div class="qty-plus-minus">
                                 <input class="qty-input" type="text" name="ec_qtybtn" value="1" />
@@ -1007,10 +1008,10 @@
                         </div>
                     </li>
                     <li>
-                        <a href="productdetails.html" class="sidecart_pro_img"><img
+                        <a href="{{ url ('user/productDetails') }}" class="sidecart_pro_img"><img
                                 src="{{ asset('user/assets/images/product-image/111_1.jpg')}}" alt="product"></a>
                         <div class="ec-pro-content">
-                            <a href="productdetails.html" class="cart_pro_title">Rose Gold Peacock Earrings</a>
+                            <a href="{{ url ('user/productDetails') }}" class="cart_pro_title">Rose Gold Peacock Earrings</a>
                             <span class="cart-price"><span>$950.00</span> x 1</span>
                             <div class="qty-plus-minus">
                                 <input class="qty-input" type="text" name="ec_qtybtn" value="1" />
@@ -1040,8 +1041,8 @@
                     </table>
                 </div>
                 <div class="cart_btn">
-                    <a href="cart.html" class="btn btn-primary">View Cart</a>
-                    <a href="checkout.html" class="btn btn-secondary">Checkout</a>
+                    <a href="{{ url ('user/cart') }}" class="btn btn-primary">View Cart</a>
+                    <a href="{{ url ('user/checkout') }}" class="btn btn-secondary">Checkout</a>
                 </div>
             </div>
         </div>
@@ -1135,7 +1136,7 @@
                         </div>
                         <div class="ec-category-desc">
                             <h3>Dog Food <span title="Category Items">(53)</span></h3>
-                            <a href="product.html" class="cat-show-all">Show All <i class="ecicon eci-angle-double-right"
+                            <a href="{{ url ('user/products') }}" class="cat-show-all">Show All <i class="ecicon eci-angle-double-right"
                                     aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -1147,7 +1148,7 @@
                         </div>
                         <div class="ec-category-desc">
                             <h3>Leashes <span title="Category Items">(58)</span></h3>
-                            <a href="product.html" class="cat-show-all">Show All <i class="ecicon eci-angle-double-right"
+                            <a href="{{ url ('user/products') }}" class="cat-show-all">Show All <i class="ecicon eci-angle-double-right"
                                     aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -1159,7 +1160,7 @@
                         </div>
                         <div class="ec-category-desc">
                             <h3>Treats <span title="Category Items">(76)</span></h3>
-                            <a href="product.html" class="cat-show-all">Show All <i class="ecicon eci-angle-double-right"
+                            <a href="{{ url ('user/products') }}" class="cat-show-all">Show All <i class="ecicon eci-angle-double-right"
                                     aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -1171,7 +1172,7 @@
                         </div>
                         <div class="ec-category-desc">
                             <h3>Beds<span title="Category Items">(49)</span></h3>
-                            <a href="product.html" class="cat-show-all">Show All <i class="ecicon eci-angle-double-right"
+                            <a href="{{ url ('user/products') }}" class="cat-show-all">Show All <i class="ecicon eci-angle-double-right"
                                     aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -1183,7 +1184,7 @@
                         </div>
                         <div class="ec-category-desc">
                             <h3>Jackets<span title="Category Items">(25)</span></h3>
-                            <a href="product.html" class="cat-show-all">Show All <i class="ecicon eci-angle-double-right"
+                            <a href="{{ url ('user/products') }}" class="cat-show-all">Show All <i class="ecicon eci-angle-double-right"
                                     aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -1195,7 +1196,7 @@
                         </div>
                         <div class="ec-category-desc">
                             <h3>Dog Toys<span title="Category Items">(35)</span></h3>
-                            <a href="product.html" class="cat-show-all">Show All <i class="ecicon eci-angle-double-right"
+                            <a href="{{ url ('user/products') }}" class="cat-show-all">Show All <i class="ecicon eci-angle-double-right"
                                     aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -1228,19 +1229,19 @@
                                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/dress-8.png" class="svg_img" alt="drink" />Cothes</div>
                                                     <ul style="display: block;">
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Shirt <span title="Available Stock">- 25</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Shirt <span title="Available Stock">- 25</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">shorts & jeans <span title="Available Stock">- 52</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">shorts & jeans <span title="Available Stock">- 52</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">jacket<span title="Available Stock">- 500</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">jacket<span title="Available Stock">- 500</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">dress & frock  <span title="Available Stock">- 35</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">dress & frock  <span title="Available Stock">- 35</span></a>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -1253,19 +1254,19 @@
                                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/shoes-8.png" class="svg_img" alt="drink" />Footwear</div>
                                                     <ul>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Sports <span title="Available Stock">- 25</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Sports <span title="Available Stock">- 25</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Formal <span title="Available Stock">- 52</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Formal <span title="Available Stock">- 52</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Casual <span title="Available Stock">- 40</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Casual <span title="Available Stock">- 40</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">safety shoes <span title="Available Stock">- 35</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">safety shoes <span title="Available Stock">- 35</span></a>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -1278,15 +1279,15 @@
                                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/jewelry-8.png" class="svg_img" alt="drink" />jewelry</div>
                                                     <ul>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Earrings <span title="Available Stock">- 50</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Earrings <span title="Available Stock">- 50</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Couple Rings <span title="Available Stock">- 35</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Couple Rings <span title="Available Stock">- 35</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Necklace <span title="Available Stock">- 40</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Necklace <span title="Available Stock">- 40</span></a>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -1299,19 +1300,19 @@
                                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/perfume-8.png" class="svg_img" alt="drink" />perfume</div>
                                                     <ul>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Clothes perfume<span title="Available Stock">- 4 pcs</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Clothes perfume<span title="Available Stock">- 4 pcs</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">deodorant <span title="Available Stock">- 52 pcs</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">deodorant <span title="Available Stock">- 52 pcs</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Flower fragrance <span title="Available Stock">- 10 pack</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Flower fragrance <span title="Available Stock">- 10 pack</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Air Freshener<span title="Available Stock">- 35 pack</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Air Freshener<span title="Available Stock">- 35 pack</span></a>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -1324,19 +1325,19 @@
                                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/cosmetics-8.png" class="svg_img" alt="drink" />cosmetics</div>
                                                     <ul>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">shampoo<span title="Available Stock"></span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">shampoo<span title="Available Stock"></span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Sunscreen<span title="Available Stock"></span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Sunscreen<span title="Available Stock"></span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">body wash<span title="Available Stock"></span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">body wash<span title="Available Stock"></span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">makeup kit<span title="Available Stock"></span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">makeup kit<span title="Available Stock"></span></a>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -1349,11 +1350,11 @@
                                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/glasses-8.png" class="svg_img" alt="drink" />glasses</div>
                                                     <ul>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Sunglasses <span title="Available Stock">- 20</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Sunglasses <span title="Available Stock">- 20</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Lenses <span title="Available Stock">- 52</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Lenses <span title="Available Stock">- 52</span></a>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -1366,19 +1367,19 @@
                                                     <div class="ec-sidebar-block-item"><img src="assets/images/icons/bag-8.png" class="svg_img" alt="drink" />bags</div>
                                                     <ul>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">shopping bag <span title="Available Stock">- 25</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">shopping bag <span title="Available Stock">- 25</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">Gym backpack <span title="Available Stock">- 52</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">Gym backpack <span title="Available Stock">- 52</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">purse <span title="Available Stock">- 40</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">purse <span title="Available Stock">- 40</span></a>
                                                             </div>
                                                         </li>
                                                         <li>
-                                                            <div class="ec-sidebar-sub-item"><a href="product.html">wallet <span title="Available Stock">- 35</span></a>
+                                                            <div class="ec-sidebar-sub-item"><a href="{{ url ('user/products') }}">wallet <span title="Available Stock">- 35</span></a>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -1593,15 +1594,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/1.png')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1618,15 +1619,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/2.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1643,15 +1644,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/3.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1668,15 +1669,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/img1.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1693,15 +1694,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/img1.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1718,15 +1719,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/3.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1743,15 +1744,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/img4.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1768,15 +1769,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/2.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1803,15 +1804,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/img2.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1828,15 +1829,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/img1.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1853,15 +1854,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/3.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1878,15 +1879,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/img4.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1903,15 +1904,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/2.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1928,15 +1929,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/1.png')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1953,15 +1954,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/img4.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -1978,15 +1979,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/img6.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -2013,15 +2014,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/2.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -2038,15 +2039,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/img3.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -2063,15 +2064,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/img5.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -2088,15 +2089,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/img6.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -2113,15 +2114,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/1.png')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -2138,15 +2139,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/2.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -2163,15 +2164,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/3.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -2188,15 +2189,15 @@
                                     <div class="ec-all-product-inner">
                                         <div class="ec-pro-image-outer">
                                             <div class="ec-pro-image">
-                                                <a href="productdetails.html" class="image">
+                                                <a href="{{ url ('user/productDetails') }}" class="image">
                                                     <img class="main-image" src="{{ asset('user/assets/images/holapetz/img1.jpg')}}"
                                                         alt="Product" />
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="ec-pro-content">
-                                            <h5 class="ec-pro-title"><a href="productdetails.html">Product Name</a></h5>
-                                            <h6 class="ec-pro-stitle"><a href="product.html">Type</a></h6>
+                                            <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Name</a></h5>
+                                            <h6 class="ec-pro-stitle"><a href="{{ url ('user/products') }}">Type</a></h6>
                                             <div class="ec-pro-rat-price">
                                                 <div class="ec-pro-rat-pri-inner">
                                                     <span class="ec-price">
@@ -2396,7 +2397,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/1.png') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2413,8 +2414,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2435,7 +2436,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/img1.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2452,8 +2453,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2474,7 +2475,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/img2.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2491,8 +2492,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2513,7 +2514,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/img3.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2530,8 +2531,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2552,7 +2553,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/img4.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2569,8 +2570,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2591,7 +2592,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/img5.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2608,8 +2609,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2630,7 +2631,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/img6.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2647,8 +2648,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2669,7 +2670,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/2.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2686,8 +2687,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2708,7 +2709,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/3.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2725,8 +2726,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2747,7 +2748,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/2.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2764,8 +2765,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2786,7 +2787,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/1.png') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2803,8 +2804,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2831,7 +2832,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/1.png') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2848,8 +2849,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2870,7 +2871,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/img1.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2887,8 +2888,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2909,7 +2910,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/img2.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2926,8 +2927,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2948,7 +2949,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/img3.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -2965,8 +2966,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -2987,7 +2988,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/img4.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -3004,8 +3005,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3026,7 +3027,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/img5.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -3043,8 +3044,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3065,7 +3066,7 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
                                                                 src="{{ asset('user/assets/images/holapetz/img6.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
@@ -3082,8 +3083,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3104,11 +3105,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="{{ asset('user/assets/images/holapetz/2.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/2.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="{{ asset('user/assets/images/holapetz/2.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/2.jpg') }}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3121,8 +3122,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3149,11 +3150,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="{{ asset('user/assets/images/holapetz/img5.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img5.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="{{ asset('user/assets/images/holapetz/img5.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img5.jpg') }}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3166,8 +3167,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3188,11 +3189,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="{{ asset('user/assets/images/holapetz/img1.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img1.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="{{ asset('user/assets/images/holapetz/img1.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img1.jpg') }}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3205,8 +3206,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3227,11 +3228,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="{{ asset('user/assets/images/holapetz/img2.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img2.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="{{ asset('user/assets/images/holapetz/img2.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img2.jpg') }}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3244,8 +3245,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3266,11 +3267,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="{{ asset('user/assets/images/holapetz/img3.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img3.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="{{ asset('user/assets/images/holapetz/img3.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img3.jpg') }}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3283,8 +3284,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3305,11 +3306,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="{{ asset('user/assets/images/holapetz/img4.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img4.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="{{ asset('user/assets/images/holapetz/img4.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img4.jpg') }}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3322,8 +3323,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3344,11 +3345,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="{{ asset('user/assets/images/holapetz/img5.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img5.jpg') }}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="assets/images/holapetz/img5.jpgy') }}" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img5.jpg') }}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3361,8 +3362,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3383,11 +3384,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="assets/images/holapetz/img6.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img6.jpg')}}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="assets/images/holapetz/img6.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img6.jpg')}}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3400,8 +3401,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3422,11 +3423,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="assets/images/holapetz/2.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/2.jpg')}}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="assets/images/holapetz/2.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/2.jpg')}}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3439,8 +3440,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3467,11 +3468,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="assets/images/holapetz/img6.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img6.jpg')}}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="assets/images/holapetz/img6.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img6.jpg')}}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3484,8 +3485,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3506,11 +3507,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="assets/images/holapetz/img1.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img1.jpg')}}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="assets/images/holapetz/img1.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img1.jpg')}}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3523,8 +3524,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3545,11 +3546,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="assets/images/holapetz/img2.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img2.jpg')}}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="assets/images/holapetz/img2.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img2.jpg')}}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3562,8 +3563,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3584,11 +3585,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="assets/images/holapetz/img3.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img3.jpg')}}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="assets/images/holapetz/img3.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img3.jpg')}}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3601,8 +3602,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3623,11 +3624,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="assets/images/holapetz/img4.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img4.jpg')}}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="assets/images/holapetz/img4.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img4.jpg')}}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3640,8 +3641,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3662,11 +3663,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="assets/images/holapetz/img5.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img5.jpg')}}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="assets/images/holapetz/img5.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img5.jpg')}}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3679,8 +3680,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3701,11 +3702,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="assets/images/holapetz/img6.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img6.jpg')}}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="assets/images/holapetz/img6.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/img6.jpg')}}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3718,8 +3719,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3740,11 +3741,11 @@
                                             <div class="ec-product-inner">
                                                 <div class="ec-pro-image-outer">
                                                     <div class="ec-pro-image">
-                                                        <a href="productdetails.html" class="image">
+                                                        <a href="{{ url ('user/productDetails') }}" class="image">
                                                             <img class="main-image"
-                                                                src="assets/images/holapetz/2.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/2.jpg')}}" alt="Product" />
                                                             <img class="hover-image"
-                                                                src="assets/images/holapetz/2.jpg" alt="Product" />
+                                                                src="{{ asset('user/assets/images/holapetz/2.jpg')}}" alt="Product" />
                                                         </a>
                                                         <span class="percentage">20%</span>
                                                         <div class="ec-pro-actions">
@@ -3757,8 +3758,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="ec-pro-content">
-                                                    <a href="product.html"><h6 class="ec-pro-stitle">Product Name</h6></a> 
-                                                    <h5 class="ec-pro-title"><a href="productdetails.html">Product Details</a></h5>
+                                                    <a href="{{ url ('user/products') }}"><h6 class="ec-pro-stitle">Product Name</h6></a> 
+                                                    <h5 class="ec-pro-title"><a href="{{ url ('user/productDetails') }}">Product Details</a></h5>
                                                     <div class="ec-pro-rat-price">
                                                         <span class="ec-pro-rating">
                                                             <i class="ecicon eci-star fill"></i>
@@ -3858,7 +3859,7 @@
                                 <div class="ec-test-inner">
                                     <div class="ec-test-img">
                                         <img alt="testimonial" title="testimonial"
-                                            src="assets/images/testimonial/1.jpg" />
+                                            src="{{ asset('user/assets/images/testimonial/1.jpg')}}" />
                                     </div>
                                     <div class="ec-test-content">
                                         <div class="ec-test-name">mark jofferson</div>
@@ -3876,7 +3877,7 @@
                                 <div class="ec-test-inner">
                                     <div class="ec-test-img">
                                         <img alt="testimonial" title="testimonial"
-                                            src="assets/images/testimonial/2.jpg" />
+                                            src="{{ asset('user/assets/images/testimonial/2.jpg')}}" />
                                     </div>
                                     <div class="ec-test-content">
                                         <div class="ec-test-name">mark jofferson</div>
@@ -3894,7 +3895,7 @@
                                 <div class="ec-test-inner">
                                     <div class="ec-test-img">
                                         <img alt="testimonial" title="testimonial"
-                                            src="assets/images/testimonial/3.jpg" />
+                                            src="{{ asset('user/assets/images/testimonial/3.jpg')}}" />
                                     </div>
                                     <div class="ec-test-content">
                                         <div class="ec-test-name">mark jofferson</div>
@@ -3923,7 +3924,7 @@
                                         <span class="ec-banner-title">Dogs & Cats</span>
                                         <span class="ec-banner-stitle">Starting @ $10</span>
                                     </div>
-                                    <span class="ec-banner-btn"><a href="product.html">Shop Now <i
+                                    <span class="ec-banner-btn"><a href="{{ url ('user/products') }}">Shop Now <i
                                                 class="ecicon eci-angle-double-right" aria-hidden="true"></i></a></span>
                                 </div>
                             </div>
@@ -4011,7 +4012,7 @@
                         <div class="ec-blog-inner">
                             <div class="ec-blog-image">
                                 <a href="blogdetails.html">
-                                    <img class="blog-image" src="assets/images/holapetz/blog1.png"
+                                    <img class="blog-image" src="{{ asset('user/assets/images/holapetz/blog1.png')}}"
                                         alt="Blog" />
                                 </a>
                             </div>
@@ -4028,7 +4029,7 @@
                         <div class="ec-blog-inner">
                             <div class="ec-blog-image">
                                 <a href="blogdetails.html">
-                                    <img class="blog-image" src="assets/images/holapetz/blog2.jpeg"
+                                    <img class="blog-image" src="{{ asset('user/assets/images/holapetz/blog2.jpeg')}}"
                                         alt="Blog" />
                                 </a>
                             </div>
@@ -4045,7 +4046,7 @@
                         <div class="ec-blog-inner">
                             <div class="ec-blog-image">
                                 <a href="blogdetails.html">
-                                    <img class="blog-image" src="assets/images/holapetz/blog3.jpeg"
+                                    <img class="blog-image" src="{{ asset('user/assets/images/holapetz/blog3.jpeg')}}"
                                         alt="Blog" />
                                 </a>
                             </div>
@@ -4062,7 +4063,7 @@
                         <div class="ec-blog-inner">
                             <div class="ec-blog-image">
                                 <a href="blogdetails.html">
-                                    <img class="blog-image" src="assets/images/holapetz/blog4.jpeg"
+                                    <img class="blog-image" src="{{ asset('user/assets/images/holapetz/blog4.jpeg')}}"
                                         alt="Blog" />
                                 </a>
                             </div>
@@ -4079,7 +4080,7 @@
                         <div class="ec-blog-inner">
                             <div class="ec-blog-image">
                                 <a href="blogdetails.html">
-                                    <img class="blog-image" src="assets/images/holapetz/blog2.jpeg"
+                                    <img class="blog-image" src="{{ asset('user/assets/images/holapetz/blog2.jpeg')}}"
                                         alt="Blog" />
                                 </a>
                             </div>
@@ -4096,7 +4097,7 @@
                         <div class="ec-blog-inner">
                             <div class="ec-blog-image">
                                 <a href="blogdetails.html">
-                                    <img class="blog-image" src="assets/images/holapetz/blog4.jpeg"
+                                    <img class="blog-image" src="{{ asset('user/assets/images/holapetz/blog4.jpeg')}}"
                                         alt="Blog" />
                                 </a>
                             </div>
@@ -4125,7 +4126,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/1.jpg" alt="">
+                                <a href="#" target="_blank"><img src="{{ asset('user/assets/images/instragram-image/1.jpg')}}" alt="">
 
                                 </a>
                             </div>
@@ -4133,7 +4134,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/2.jpg" alt="">
+                                <a href="#" target="_blank"><img src="{{ asset('user/assets/images/instragram-image/2.jpg')}}" alt="">
 
                                 </a>
                             </div>
@@ -4141,7 +4142,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/3.jpg" alt="">
+                                <a href="#" target="_blank"><img src="{{ asset('user/assets/images/instragram-image/3.jpg')}}" alt="">
 
                                 </a>
                             </div>
@@ -4149,7 +4150,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/4.jpg" alt="">
+                                <a href="#" target="_blank"><img src="{{ asset('user/assets/images/instragram-image/4.jpg')}}" alt="">
 
                                 </a>
                             </div>
@@ -4158,7 +4159,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/5.jpg" alt="">
+                                <a href="#" target="_blank"><img src="{{ asset('user/assets/images/instragram-image/5.jpg')}}" alt="">
 
                                 </a>
                             </div>
@@ -4166,7 +4167,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/6.jpg" alt="">
+                                <a href="#" target="_blank"><img src="{{ asset('user/assets/images/instragram-image/6.jpg')}}" alt="">
 
                                 </a>
                             </div>
@@ -4174,7 +4175,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/7.jpg" alt="">
+                                <a href="#" target="_blank"><img src="{{ asset('user/assets/images/instragram-image/7.jpg')}}" alt="">
 
                                 </a>
                             </div>
@@ -4182,7 +4183,7 @@
                         <!-- instagram item -->
                         <div class="ec-insta-item">
                             <div class="ec-insta-inner">
-                                <a href="#" target="_blank"><img src="assets/images/instragram-image/3.jpg" alt="">
+                                <a href="#" target="_blank"><img src="{{ asset('user/assets/images/instragram-image/3.jpg')}}" alt="">
 
                                 </a>
                             </div>
@@ -4205,59 +4206,59 @@
                             <div class="footer-cat-stitle">Brands Directory</div>
                             <div class="block">
                                 <span class="footer-cat-title">Fashion : </span>
-                                <a href="product.html">T-shirt</a><span> | </span>
-                                <a href="product.html">Shirts</a><span> | </span>
-                                <a href="product.html">shorts & jeans </a><span> | </span>
-                                <a href="product.html">jacket</a><span> | </span>
-                                <a href="product.html">dress & frock</a><span> | </span>
-                                <a href="product.html">innerwear</a>
-                                <a href="product.html">hosiery</a>
+                                <a href="{{ url ('user/products') }}">T-shirt</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Shirts</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">shorts & jeans </a><span> | </span>
+                                <a href="{{ url ('user/products') }}">jacket</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">dress & frock</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">innerwear</a>
+                                <a href="{{ url ('user/products') }}">hosiery</a>
                             </div>
                             <div class="block">
                                 <span class="footer-cat-title">footwear : </span>
-                                <a href="product.html">sport</a><span> | </span>
-                                <a href="product.html">formal</a><span> | </span>
-                                <a href="product.html">Boots</a><span> | </span>
-                                <a href="product.html">casual</a><span> | </span>
-                                <a href="product.html">cowboy shoes</a><span> | </span>
-                                <a href="product.html">safety shoes</a><span> | </span>
-                                <a href="product.html">Party wear shoes</a><span> | </span>
-                                <a href="product.html">Branded</a><span> | </span>
-                                <a href="product.html">Firstcopy</a><span> | </span>
-                                <a href="product.html">Long shoes</a>
+                                <a href="{{ url ('user/products') }}">sport</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">formal</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Boots</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">casual</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">cowboy shoes</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">safety shoes</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Party wear shoes</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Branded</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Firstcopy</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Long shoes</a>
                             </div>
                             <div class="block">
                                 <span class="footer-cat-title">jewellery : </span>
-                                <a href="product.html">Necklace</a><span> | </span>
-                                <a href="product.html">Earrings</a><span> | </span>
-                                <a href="product.html">Couple rings</a><span> | </span>
-                                <a href="product.html">Pendants</a><span> | </span>
-                                <a href="product.html">Crystal</a><span> | </span>
-                                <a href="product.html">Bangles</a><span> | </span>
-                                <a href="product.html">bracelets</a><span> | </span>
-                                <a href="product.html">nosepin</a><span> | </span>
-                                <a href="product.html">chain</a><span> | </span>
-                                <a href="product.html">Earrings</a><span> | </span>
-                                <a href="product.html">Couple rings</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Necklace</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Earrings</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Couple rings</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Pendants</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Crystal</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Bangles</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">bracelets</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">nosepin</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">chain</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Earrings</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Couple rings</a><span> | </span>
                             </div>
                             <div class="block">
                                 <span class="footer-cat-title">cosmetics : </span>
-                                <a href="product.html">Shampoo</a><span> | </span>
-                                <a href="product.html">Bodywash</a><span> | </span>
-                                <a href="product.html">Facewash</a><span> | </span>
-                                <a href="product.html">makeup kit</a><span> | </span>
-                                <a href="product.html">liner</a><span> | </span>
-                                <a href="product.html">lipstick</a><span> | </span>
-                                <a href="product.html">prefume</a><span> | </span>
-                                <a href="product.html">Body shop</a><span> | </span>
-                                <a href="product.html">scrub</a><span> | </span>
-                                <a href="product.html">hair gel</a><span> | </span>
-                                <a href="product.html">hair colors</a><span> | </span>
-                                <a href="product.html">hair dye</a><span> | </span>
-                                <a href="product.html">sunscreen</a><span> | </span>
-                                <a href="product.html">skin loson</a><span> | </span>
-                                <a href="product.html">liner</a><span> | </span>
-                                <a href="product.html">lipstick</a>
+                                <a href="{{ url ('user/products') }}">Shampoo</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Bodywash</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Facewash</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">makeup kit</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">liner</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">lipstick</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">prefume</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">Body shop</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">scrub</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">hair gel</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">hair colors</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">hair dye</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">sunscreen</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">skin loson</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">liner</a><span> | </span>
+                                <a href="{{ url ('user/products') }}">lipstick</a>
                             </div>
                         </div>
                     </div>
@@ -4290,7 +4291,7 @@
                                         <li class="ec-footer-link"><a href="#">Prices drop</a></li>
                                         <li class="ec-footer-link"><a href="#">New products</a></li>
                                         <li class="ec-footer-link"><a href="#">Best sales</a></li>
-                                        <li class="ec-footer-link"><a href="contact-us.html">Contact us</a></li>
+                                        <li class="ec-footer-link"><a href="{{ url ('user/contact') }}">Contact us</a></li>
                                         <li class="ec-footer-link"><a href="#">Sitemap</a></li>
                                     </ul>
                                 </div>
@@ -4305,7 +4306,7 @@
                                         <li class="ec-footer-link"><a href="privacy-policy.html">Legal Notice</a></li>
                                         <li class="ec-footer-link"><a href="terms-condition.html">Terms and conditions</a></li>
                                         <li class="ec-footer-link"><a href="about-us.html">About us</a></li>
-                                        <li class="ec-footer-link"><a href="checkout.html">Secure payment</a></li>
+                                        <li class="ec-footer-link"><a href="{{ url ('user/checkout') }}">Secure payment</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -4318,7 +4319,7 @@
                                         <li class="ec-footer-link"><a href="#">Prices drop</a></li>
                                         <li class="ec-footer-link"><a href="#">New products</a></li>
                                         <li class="ec-footer-link"><a href="#">Best sales</a></li>
-                                        <li class="ec-footer-link"><a href="contact-us.html">Contact us</a></li>
+                                        <li class="ec-footer-link"><a href="{{ url ('user/contact') }}">Contact us</a></li>
                                         <li class="ec-footer-link"><a href="#">Sitemap</a></li>
                                     </ul>
                                 </div>
@@ -4369,7 +4370,7 @@
                         <div class="footer-bottom-right">
                             <div class="footer-bottom-payment d-flex justify-content-center">
                                 <div class="payment-link">
-                                    <img src="assets/images/icons/payment.png" alt="">
+                                    <img src="{{ asset('user/assets/images/icons/payment.png')}}" alt="">
                                 </div>
 
                             </div>
@@ -4402,42 +4403,42 @@
                             <!-- Swiper -->
                             <div class="qty-product-cover">
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/94_1.jpg" alt="">
+                                    <img class="img-responsive" src="{{ asset('user/assets/images/product-image/94_1.jpg')}}" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/94_2.jpg" alt="">
+                                    <img class="img-responsive" src="{{ asset('user/assets/images/product-image/94_2.jpg')}}" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/holapetz/drools2.jpg" alt="">
+                                    <img class="img-responsive" src="{{ asset('user/assets/images/holapetz/drools2.jpg')}}" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/93_2.jpg" alt="">
+                                    <img class="img-responsive" src="{{ asset('user/assets/images/product-image/93_2.jpg')}}" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/94_2.jpg" alt="">
+                                    <img class="img-responsive" src="{{ asset('user/assets/images/product-image/94_2.jpg')}}" alt="">
                                 </div>
                             </div>
                             <div class="qty-nav-thumb">
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/94_1.jpg" alt="">
+                                    <img class="img-responsive" src="{{ asset('user/assets/images/product-image/94_1.jpg')}}" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/94_2.jpg" alt="">
+                                    <img class="img-responsive" src="{{ asset('user/assets/images/product-image/94_2.jpg')}}" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/holapetz/drools2.jpg" alt="">
+                                    <img class="img-responsive" src="{{ asset('user/assets/images/holapetz/drools2.jpg')}}" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/93_2.jpg" alt="">
+                                    <img class="img-responsive" src="{{ asset('user/assets/images/product-image/93_2.jpg')}}" alt="">
                                 </div>
                                 <div class="qty-slide">
-                                    <img class="img-responsive" src="assets/images/product-image/94_2.jpg" alt="">
+                                    <img class="img-responsive" src="{{ asset('user/assets/images/product-image/94_2.jpg')}}" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-7 col-sm-12 col-xs-12">
                             <div class="quickview-pro-content">
-                                <h5 class="ec-quick-title"><a href="productdetails.html">Mens Winter Leathers Jackets</a></h5>
+                                <h5 class="ec-quick-title"><a href="{{ url ('user/productDetails') }}">Mens Winter Leathers Jackets</a></h5>
                                 <div class="ec-quickview-rating">
                                     <i class="ecicon eci-star fill"></i>
                                     <i class="ecicon eci-star fill"></i>
@@ -4548,10 +4549,10 @@
                             class="ec-cart-noti ec-header-count cart-count-lable">3</span></a>
                 </div>
                 <div class="ec-nav-panel-icons">
-                    <a href="index.html" class="ec-header-btn"><i class="fi-rr-home"></i></a>
+                    <a href="{{ url ('/') }}" class="ec-header-btn"><i class="fi-rr-home"></i></a>
                 </div>
                 <div class="ec-nav-panel-icons">
-                    <a href="wishlist.html" class="ec-header-btn"><i class="fi-rr-heart"></i><span class="ec-cart-noti">4</span></a>
+                    <a href="{{ url ('user/wishlist') }}" class="ec-header-btn"><i class="fi-rr-heart"></i><span class="ec-cart-noti">4</span></a>
                 </div>
                 <div class="ec-nav-panel-icons">
                     <a href="login.html" class="ec-header-btn"><i class="fi-rr-user"></i></a>
