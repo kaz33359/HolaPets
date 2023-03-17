@@ -78,6 +78,16 @@ class AdminController extends Controller
     
     
 }
+    //logout
+    public function logout()
+    {
+        if (session()->has('LoggedAdmin')) {
+            session()->pull('LoggedAdmin');
+            session()->pull('ADMIN_ID');
+            session()->pull('ADMIN_LOGIN');
+            return redirect('admin/login')->with('success', 'Logout successful');
+        }
+    }
     public function hashp()
     {
         $paw = Crypt::encrypt('123456');

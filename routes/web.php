@@ -31,6 +31,9 @@ Route::group(['middleware' => ['AdminAuth']], function () {
         Route::get('admin/viewProduct', [AdminController::class, 'viewProduct']);
         Route::get('admin/viewUser', [AdminController::class, 'viewUser']);
         Route::get('admin/viewVendor', [AdminController::class, 'viewVendor']);
+        //logout
+        Route::get('admin/logout', [AdminController::class, 'logout']);
+    //logout
 });
 
 Route::get('admin/login', [AdminController::class, 'login']);
