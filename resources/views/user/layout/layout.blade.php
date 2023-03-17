@@ -488,23 +488,30 @@
                                             </ul>
                                         </li>
                                     </ul>
-                                </li><li class="dropdown position-static"><a href="javascript:void(0)">Other Animals</a>
+                                </li>
+                                <li class="dropdown position-static"><a href="javascript:void(0)">Other Animals</a>
                                     <ul class="mega-menu d-block">
-                                        <li>
-                                            <ul class="ec-main-banner w-100">
-                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img
-                                                            class="img-responsive" src="assets/images/holapetz/otheranimals2.jpg"
-                                                            alt=""></a></li>
-                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img
-                                                            class="img-responsive" src="assets/images/holapetz/otheranimals.jpg"
-                                                            alt=""></a></li>
-                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img
-                                                            class="img-responsive" src="assets/images/holapetz/otheranimals3.jpg"
-                                                            alt=""></a></li>
-                                                <li><a class="p-0" href="{{ url ('user/products') }}"><img
-                                                            class="img-responsive" src="assets/images/holapetz/otheranimals4.jpg"
-                                                            alt=""></a></li>
+                                        <li class="d-flex">
+                                            <ul class="d-block">
+                                                <li><a href="product.html"> <img  src="assets/images/holapetz/dog.png" alt="">Dog </a>
+                                                </li>
                                             </ul>
+
+                                            <ul class="d-block">    
+                                                <li><a href="product.html"> <img  src="assets/images/holapetz/rabbit.png" alt="">Rabbit </a>
+                                                </li>
+                                            </ul>
+
+                                            <ul class="d-block">    
+                                                <li><a href="product.html"> <img  src="assets/images/holapetz/parrot.png" alt="">Parrot </a>
+                                                </li>
+                                            </ul>
+
+                                            <ul class="d-block">    
+                                                <li><a href="product.html"> <img  src="assets/images/holapetz/bird.png" alt="">Other birds </a>
+                                                </li>
+                                            </ul>
+                                            
                                         </li>
                                     </ul>
                                 </li>
